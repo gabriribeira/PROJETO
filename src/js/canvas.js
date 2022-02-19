@@ -14,6 +14,7 @@ import platform from '../img/platform.png'
 import casas from '../img/casas.png'
 import background from '../img/ceu.png'
 import dunas from '../img/dunas.png'
+import mar175 from '../img/mar175.png'
 
 import platformSmallTall from '../img/platformSmallTall.png'
 import block from '../img/block.png'
@@ -22,7 +23,7 @@ import mdPlatform from '../img/mdPlatform.png'
 import lgPlatform from '../img/lgPlatform.png'
 import tPlatform from '../img/tPlatform.png'
 import xtPlatform from '../img/xtPlatform.png'
-import flagPoleSprite from '../img/farolFinal.png'
+import flagPoleSprite from '../img/farol_destruido.png'
 
 import spriteRunLeft from '../img/spriteRunLeft.png'
 import spriteRunRight from '../img/spriteRunRight.png'
@@ -46,6 +47,8 @@ import spriteFireFlowerJumpLeft from '../img/spriteFireFlowerJumpLeft.png'
 import spriteFireFlower from '../img/spriteFireFlower.png'
 
 import spriteGoomba from '../img/spriteGoomba.png'
+import polvoInimigo from '../img/polvo.png'
+
 import { audio } from './audio.js'
 import { images } from './images.js'
 
@@ -306,6 +309,56 @@ class Goomba {
   }
 }
 
+class Polvo {
+  constructor({
+                position,
+                velocity,
+                distance = {
+                  limit: 50,
+                  traveled: 0
+                }
+              }) {
+    this.position = {
+      x: position.x,
+      y: position.y
+    }
+
+    this.velocity = {
+      x: velocity.x,
+      y: velocity.y
+    }
+
+    this.width = 100
+    this.height = 100
+
+    this.image = createImage(polvoInimigo)
+    this.frames = 0
+
+    this.distance = distance
+  }
+
+  draw() {
+    c.drawImage(this.image, this.position.x, this.position.y)
+  }
+
+  update() {
+    this.draw()
+    this.position.x += this.velocity.x
+    this.position.y += this.velocity.y
+
+    if (this.position.y + this.height + this.velocity.y <= canvas.height)
+      this.velocity.y += gravity
+
+    // walk the polvo back and forth
+    this.distance.traveled += Math.abs(this.velocity.x)
+
+    if (this.distance.traveled > this.distance.limit) {
+      this.distance.traveled = 0
+      this.velocity.x = -this.velocity.x
+    }
+  }
+}
+
 class FireFlower {
   constructor({ position, velocity }) {
     this.position = {
@@ -421,6 +474,7 @@ let player = new Player()
 let platforms = []
 let genericObjects = []
 let goombas = []
+let polvos = []
 let particles = []
 let fireFlowers = []
 
@@ -484,6 +538,24 @@ async function init() {
   ]
 
   player = new Player()
+
+  const polvoWidth = 100
+  polvos = [
+      new Polvo({
+        position: {
+          x:500 + lgPlatformImage.width - polvoWidth,
+          y: 100
+        },
+        velocity: {
+          x: -0.4,
+          y:0
+        },
+        distance: {
+          limit: 100,
+          traveled: 0
+        }
+      })
+  ]
 
   const goombaWidth = 43.33
   goombas = [
@@ -677,7 +749,7 @@ async function init() {
   flagPole = new GenericObject({
     x: 6968 + 600,
     // x: 500,
-    y: canvas.height - lgPlatformImage.height -  flagPoleImage.height ,
+    y: canvas.height - lgPlatformImage.height -  flagPoleImage.height,
     image: flagPoleImage
   })
   genericObjects = [
@@ -688,7 +760,7 @@ async function init() {
     }),
     new GenericObject({
       x: -1,
-      y: 110,
+      y: 225,
       image: createImage(casas)
     }),
     new GenericObject({
@@ -1292,9 +1364,101 @@ function animate() {
     }
   })
 
+  polvos.forEach((polvo, index) => {
+    polvo.update()
+
+    // remove polvo on fireball hit
+    particles.forEach((particle, particleIndex) => {
+      if (
+          particle.fireball &&
+          particle.position.x + particle.radius >= polvo.position.x &&
+          particle.position.y + particle.radius >= polvo.position.y &&
+          particle.position.x - particle.radius <=
+          polvo.position.x + polvo.width &&
+          particle.position.y - particle.radius <=
+          polvo.position.y + polvo.height
+      ) {
+        for (let i = 0; i < 50; i++) {
+          particles.push(
+              new Particle({
+                position: {
+                  x: polvo.position.x + polvo.width / 2,
+                  y: polvo.position.y + polvo.height / 2
+                },
+                velocity: {
+                  x: (Math.random() - 0.5) * 7,
+                  y: (Math.random() - 0.5) * 15
+                },
+                radius: Math.random() * 3
+              })
+          )
+        }
+        setTimeout(() => {
+          polvos.splice(index, 1)
+          particles.splice(particleIndex, 1)
+        }, 0)
+      }
+    })
+
+    // polvo stomp squish / squash
+    if (
+        collisionTop({
+          object1: player,
+          object2: polvo
+        })
+    ) {
+      audio.goombaSquash.play()
+
+      for (let i = 0; i < 50; i++) {
+        particles.push(
+            new Particle({
+              position: {
+                x: polvo.position.x + polvo.width / 2,
+                y: polvo.position.y + polvo.height / 2
+              },
+              velocity: {
+                x: (Math.random() - 0.5) * 7,
+                y: (Math.random() - 0.5) * 15
+              },
+              radius: Math.random() * 3
+            })
+        )
+      }
+      player.velocity.y -= 40
+      setTimeout(() => {
+        polvos.splice(index, 1)
+      }, 0)
+    } else if (
+        player.position.x + player.width >= polvo.position.x &&
+        player.position.y + player.height >= polvo.position.y &&
+        player.position.x <= polvo.position.x + polvo.width
+    ) {
+      // player hits polvo
+      // lose fireflower / lose powerup
+      if (player.powerUps.fireFlower) {
+        player.invincible = true
+        player.powerUps.fireFlower = false
+        audio.losePowerUp.play()
+
+        setTimeout(() => {
+          player.invincible = false
+        }, 1000)
+      } else if (!player.invincible) {
+        audio.die.play()
+        selectLevel(currentLevel)
+      }
+    }
+  })
+
+
+
   player.update()
 
+
+
   if (game.disableUserInput) return
+
+
 
   // scrolling code starts
   let hitSide = false
@@ -1336,11 +1500,15 @@ function animate() {
         flagPole.velocity.x = -player.speed
 
         genericObjects.forEach((genericObject) => {
-          genericObject.velocity.x = -player.speed * 0.66
+          genericObject.velocity.x = -player.speed * 0.4
         })
 
         goombas.forEach((goomba) => {
           goomba.position.x -= player.speed
+        })
+
+        polvos.forEach((polvo) => {
+          polvo.position.x -= player.speed
         })
 
         fireFlowers.forEach((fireFlower) => {
@@ -1378,11 +1546,15 @@ function animate() {
         flagPole.velocity.x = player.speed
 
         genericObjects.forEach((genericObject) => {
-          genericObject.velocity.x = player.speed * 0.66
+          genericObject.velocity.x = player.speed * 0.2
         })
 
         goombas.forEach((goomba) => {
           goomba.position.x += player.speed
+        })
+
+        polvos.forEach((polvo) => {
+          polvo.position.x += player.speed
         })
 
         fireFlowers.forEach((fireFlower) => {
@@ -1453,6 +1625,16 @@ function animate() {
           })
       )
         goomba.velocity.y = 0
+    })
+
+    polvos.forEach((polvo) => {
+      if (
+          isOnTopOfPlatform({
+            object: polvo,
+            platform
+          })
+      )
+        polvo.velocity.y = 0
     })
 
     fireFlowers.forEach((fireFlower) => {
