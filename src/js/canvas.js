@@ -11,8 +11,10 @@ import {
 } from './utils.js'
 
 import platform from '../img/platform.png'
-import hills from '../img/hills.png'
-import background from '../img/background.png'
+import casas from '../img/casas.png'
+import background from '../img/ceu.png'
+import dunas from '../img/dunas.png'
+
 import platformSmallTall from '../img/platformSmallTall.png'
 import block from '../img/block.png'
 import blockTri from '../img/blockTri.png'
@@ -20,7 +22,7 @@ import mdPlatform from '../img/mdPlatform.png'
 import lgPlatform from '../img/lgPlatform.png'
 import tPlatform from '../img/tPlatform.png'
 import xtPlatform from '../img/xtPlatform.png'
-import flagPoleSprite from '../img/flagPole.png'
+import flagPoleSprite from '../img/farolFinal.png'
 
 import spriteRunLeft from '../img/spriteRunLeft.png'
 import spriteRunRight from '../img/spriteRunRight.png'
@@ -50,8 +52,8 @@ import { images } from './images.js'
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
 
-canvas.width = 1024
-canvas.height = 576
+canvas.width = 1280
+canvas.height = 720
 
 let gravity = 1.5
 
@@ -468,13 +470,6 @@ async function init() {
   xtPlatformImage = await createImageAsync(xtPlatform)
   flagPoleImage = await createImageAsync(flagPoleSprite)
 
-  flagPole = new GenericObject({
-    x: 6968 + 600,
-    // x: 500,
-    y: canvas.height - lgPlatformImage.height - flagPoleImage.height,
-    image: flagPoleImage
-  })
-
   fireFlowers = [
     new FireFlower({
       position: {
@@ -678,6 +673,13 @@ async function init() {
       text: 6968 + 300
     })
   ]
+
+  flagPole = new GenericObject({
+    x: 6968 + 600,
+    // x: 500,
+    y: canvas.height - lgPlatformImage.height -  flagPoleImage.height ,
+    image: flagPoleImage
+  })
   genericObjects = [
     new GenericObject({
       x: -1,
@@ -686,9 +688,14 @@ async function init() {
     }),
     new GenericObject({
       x: -1,
-      y: -1,
-      image: createImage(hills)
-    })
+      y: 110,
+      image: createImage(casas)
+    }),
+    new GenericObject({
+      x: 3000,
+      y: 500,
+      image: createImage(dunas)
+    }),
   ]
 
   scrollOffset = 0
@@ -1551,11 +1558,29 @@ addEventListener('keydown', ({ keyCode }) => {
 
       break
 
+    case 37:
+      console.log('left')
+      keys.left.pressed = true
+      lastKey = 'left'
+
+      break
+
     case 83:
       console.log('down')
       break
 
+    case 40:
+      console.log('down')
+      break
+
     case 68:
+      console.log('right')
+      keys.right.pressed = true
+      lastKey = 'right'
+
+      break
+
+    case 39:
       console.log('right')
       keys.right.pressed = true
       lastKey = 'right'
@@ -1578,6 +1603,24 @@ addEventListener('keydown', ({ keyCode }) => {
       else player.currentSprite = player.sprites.jump.fireFlower.left
 
       break
+
+    case 38:
+      console.log('up')
+      player.velocity.y -= 25
+
+      audio.jump.play()
+
+      if (lastKey === 'right') player.currentSprite = player.sprites.jump.right
+      else player.currentSprite = player.sprites.jump.left
+
+      if (!player.powerUps.fireFlower) break
+
+      if (lastKey === 'right')
+        player.currentSprite = player.sprites.jump.fireFlower.right
+      else player.currentSprite = player.sprites.jump.fireFlower.left
+
+      break
+
 
     case 32:
       console.log('space')
@@ -1623,7 +1666,16 @@ addEventListener('keyup', ({ keyCode }) => {
       keys.left.pressed = false
       break
 
+    case 37:
+      console.log('left')
+      keys.left.pressed = false
+      break
+
     case 83:
+      console.log('down')
+      break
+
+    case 40:
       console.log('down')
       break
 
@@ -1633,8 +1685,19 @@ addEventListener('keyup', ({ keyCode }) => {
 
       break
 
+    case 39:
+      console.log('right')
+      keys.right.pressed = false
+
+      break
+
     case 87:
       console.log('up')
       break
+
+    case 38:
+      console.log('up')
+      break
+
   }
 })

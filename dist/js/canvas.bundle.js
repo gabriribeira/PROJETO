@@ -9957,19 +9957,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/background.png":
-/*!********************************!*\
-  !*** ./src/img/background.png ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "072d51bcc9c09311d4c2a6708b05bddc.png");
-
-/***/ }),
-
 /***/ "./src/img/block.png":
 /*!***************************!*\
   !*** ./src/img/block.png ***!
@@ -9996,29 +9983,55 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/flagPole.png":
-/*!******************************!*\
-  !*** ./src/img/flagPole.png ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "78dcce3c536f70037202a007e3436565.png");
-
-/***/ }),
-
-/***/ "./src/img/hills.png":
+/***/ "./src/img/casas.png":
 /*!***************************!*\
-  !*** ./src/img/hills.png ***!
+  !*** ./src/img/casas.png ***!
   \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "cfffe4c371f5e11d372b398a87c51dd0.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "8a226541fae5ac8db952563654fa7ef3.png");
+
+/***/ }),
+
+/***/ "./src/img/ceu.png":
+/*!*************************!*\
+  !*** ./src/img/ceu.png ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ae54f4569dd111916d9160d7e5799291.png");
+
+/***/ }),
+
+/***/ "./src/img/dunas.png":
+/*!***************************!*\
+  !*** ./src/img/dunas.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "20e54f84fd921318d5352b4ca9758c21.png");
+
+/***/ }),
+
+/***/ "./src/img/farolFinal.png":
+/*!********************************!*\
+  !*** ./src/img/farolFinal.png ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "20c0587c9ae1b6434c3c6b9c32db9569.png");
 
 /***/ }),
 
@@ -10524,36 +10537,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils.js */ "./src/js/utils.js");
 /* harmony import */ var _img_platform_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/platform.png */ "./src/img/platform.png");
-/* harmony import */ var _img_hills_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/hills.png */ "./src/img/hills.png");
-/* harmony import */ var _img_background_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/background.png */ "./src/img/background.png");
-/* harmony import */ var _img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/platformSmallTall.png */ "./src/img/platformSmallTall.png");
-/* harmony import */ var _img_block_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/block.png */ "./src/img/block.png");
-/* harmony import */ var _img_blockTri_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/blockTri.png */ "./src/img/blockTri.png");
-/* harmony import */ var _img_mdPlatform_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/mdPlatform.png */ "./src/img/mdPlatform.png");
-/* harmony import */ var _img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/lgPlatform.png */ "./src/img/lgPlatform.png");
-/* harmony import */ var _img_tPlatform_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/tPlatform.png */ "./src/img/tPlatform.png");
-/* harmony import */ var _img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/xtPlatform.png */ "./src/img/xtPlatform.png");
-/* harmony import */ var _img_flagPole_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/flagPole.png */ "./src/img/flagPole.png");
-/* harmony import */ var _img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/spriteRunLeft.png */ "./src/img/spriteRunLeft.png");
-/* harmony import */ var _img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/spriteRunRight.png */ "./src/img/spriteRunRight.png");
-/* harmony import */ var _img_spriteStandLeft_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/spriteStandLeft.png */ "./src/img/spriteStandLeft.png");
-/* harmony import */ var _img_spriteStandRight_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/spriteStandRight.png */ "./src/img/spriteStandRight.png");
-/* harmony import */ var _img_spriteMarioRunLeft_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/spriteMarioRunLeft.png */ "./src/img/spriteMarioRunLeft.png");
-/* harmony import */ var _img_spriteMarioRunRight_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/spriteMarioRunRight.png */ "./src/img/spriteMarioRunRight.png");
-/* harmony import */ var _img_spriteMarioStandLeft_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/spriteMarioStandLeft.png */ "./src/img/spriteMarioStandLeft.png");
-/* harmony import */ var _img_spriteMarioStandRight_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/spriteMarioStandRight.png */ "./src/img/spriteMarioStandRight.png");
-/* harmony import */ var _img_spriteMarioJumpRight_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/spriteMarioJumpRight.png */ "./src/img/spriteMarioJumpRight.png");
-/* harmony import */ var _img_spriteMarioJumpLeft_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/spriteMarioJumpLeft.png */ "./src/img/spriteMarioJumpLeft.png");
-/* harmony import */ var _img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/spriteFireFlowerRunRight.png */ "./src/img/spriteFireFlowerRunRight.png");
-/* harmony import */ var _img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/spriteFireFlowerRunLeft.png */ "./src/img/spriteFireFlowerRunLeft.png");
-/* harmony import */ var _img_spriteFireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/spriteFireFlowerStandRight.png */ "./src/img/spriteFireFlowerStandRight.png");
-/* harmony import */ var _img_spriteFireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/spriteFireFlowerStandLeft.png */ "./src/img/spriteFireFlowerStandLeft.png");
-/* harmony import */ var _img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpRight.png */ "./src/img/spriteFireFlowerJumpRight.png");
-/* harmony import */ var _img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpLeft.png */ "./src/img/spriteFireFlowerJumpLeft.png");
-/* harmony import */ var _img_spriteFireFlower_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/spriteFireFlower.png */ "./src/img/spriteFireFlower.png");
-/* harmony import */ var _img_spriteGoomba_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../img/spriteGoomba.png */ "./src/img/spriteGoomba.png");
-/* harmony import */ var _audio_js__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./audio.js */ "./src/js/audio.js");
-/* harmony import */ var _images_js__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./images.js */ "./src/js/images.js");
+/* harmony import */ var _img_casas_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/casas.png */ "./src/img/casas.png");
+/* harmony import */ var _img_ceu_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/ceu.png */ "./src/img/ceu.png");
+/* harmony import */ var _img_dunas_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/dunas.png */ "./src/img/dunas.png");
+/* harmony import */ var _img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/platformSmallTall.png */ "./src/img/platformSmallTall.png");
+/* harmony import */ var _img_block_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/block.png */ "./src/img/block.png");
+/* harmony import */ var _img_blockTri_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/blockTri.png */ "./src/img/blockTri.png");
+/* harmony import */ var _img_mdPlatform_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/mdPlatform.png */ "./src/img/mdPlatform.png");
+/* harmony import */ var _img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/lgPlatform.png */ "./src/img/lgPlatform.png");
+/* harmony import */ var _img_tPlatform_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/tPlatform.png */ "./src/img/tPlatform.png");
+/* harmony import */ var _img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/xtPlatform.png */ "./src/img/xtPlatform.png");
+/* harmony import */ var _img_farolFinal_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/farolFinal.png */ "./src/img/farolFinal.png");
+/* harmony import */ var _img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/spriteRunLeft.png */ "./src/img/spriteRunLeft.png");
+/* harmony import */ var _img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/spriteRunRight.png */ "./src/img/spriteRunRight.png");
+/* harmony import */ var _img_spriteStandLeft_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/spriteStandLeft.png */ "./src/img/spriteStandLeft.png");
+/* harmony import */ var _img_spriteStandRight_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/spriteStandRight.png */ "./src/img/spriteStandRight.png");
+/* harmony import */ var _img_spriteMarioRunLeft_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/spriteMarioRunLeft.png */ "./src/img/spriteMarioRunLeft.png");
+/* harmony import */ var _img_spriteMarioRunRight_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/spriteMarioRunRight.png */ "./src/img/spriteMarioRunRight.png");
+/* harmony import */ var _img_spriteMarioStandLeft_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/spriteMarioStandLeft.png */ "./src/img/spriteMarioStandLeft.png");
+/* harmony import */ var _img_spriteMarioStandRight_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/spriteMarioStandRight.png */ "./src/img/spriteMarioStandRight.png");
+/* harmony import */ var _img_spriteMarioJumpRight_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/spriteMarioJumpRight.png */ "./src/img/spriteMarioJumpRight.png");
+/* harmony import */ var _img_spriteMarioJumpLeft_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/spriteMarioJumpLeft.png */ "./src/img/spriteMarioJumpLeft.png");
+/* harmony import */ var _img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/spriteFireFlowerRunRight.png */ "./src/img/spriteFireFlowerRunRight.png");
+/* harmony import */ var _img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/spriteFireFlowerRunLeft.png */ "./src/img/spriteFireFlowerRunLeft.png");
+/* harmony import */ var _img_spriteFireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/spriteFireFlowerStandRight.png */ "./src/img/spriteFireFlowerStandRight.png");
+/* harmony import */ var _img_spriteFireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/spriteFireFlowerStandLeft.png */ "./src/img/spriteFireFlowerStandLeft.png");
+/* harmony import */ var _img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpRight.png */ "./src/img/spriteFireFlowerJumpRight.png");
+/* harmony import */ var _img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpLeft.png */ "./src/img/spriteFireFlowerJumpLeft.png");
+/* harmony import */ var _img_spriteFireFlower_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../img/spriteFireFlower.png */ "./src/img/spriteFireFlower.png");
+/* harmony import */ var _img_spriteGoomba_png__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../img/spriteGoomba.png */ "./src/img/spriteGoomba.png");
+/* harmony import */ var _audio_js__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./audio.js */ "./src/js/audio.js");
+/* harmony import */ var _images_js__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./images.js */ "./src/js/images.js");
+
 
 
 
@@ -10593,8 +10608,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var canvas = document.querySelector('canvas');
 var c = canvas.getContext('2d');
-canvas.width = 1024;
-canvas.height = 576;
+canvas.width = 1280;
+canvas.height = 720;
 var gravity = 1.5;
 
 var Player = /*#__PURE__*/function () {
@@ -10614,37 +10629,37 @@ var Player = /*#__PURE__*/function () {
     this.scale = 0.3;
     this.width = 398 * this.scale;
     this.height = 353 * this.scale;
-    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteStandRight_png__WEBPACK_IMPORTED_MODULE_20__["default"]);
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteStandRight_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
     this.frames = 0;
     this.sprites = {
       stand: {
-        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioStandRight_png__WEBPACK_IMPORTED_MODULE_24__["default"]),
-        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioStandLeft_png__WEBPACK_IMPORTED_MODULE_23__["default"]),
+        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioStandRight_png__WEBPACK_IMPORTED_MODULE_25__["default"]),
+        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioStandLeft_png__WEBPACK_IMPORTED_MODULE_24__["default"]),
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_29__["default"]),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_30__["default"])
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_30__["default"]),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_31__["default"])
         }
       },
       run: {
-        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioRunRight_png__WEBPACK_IMPORTED_MODULE_22__["default"]),
-        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioRunLeft_png__WEBPACK_IMPORTED_MODULE_21__["default"]),
+        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioRunRight_png__WEBPACK_IMPORTED_MODULE_23__["default"]),
+        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioRunLeft_png__WEBPACK_IMPORTED_MODULE_22__["default"]),
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_27__["default"]),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_28__["default"])
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_28__["default"]),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_29__["default"])
         }
       },
       jump: {
-        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioJumpRight_png__WEBPACK_IMPORTED_MODULE_25__["default"]),
-        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioJumpLeft_png__WEBPACK_IMPORTED_MODULE_26__["default"]),
+        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioJumpRight_png__WEBPACK_IMPORTED_MODULE_26__["default"]),
+        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioJumpLeft_png__WEBPACK_IMPORTED_MODULE_27__["default"]),
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_31__["default"]),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_32__["default"])
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_32__["default"]),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_33__["default"])
         }
       },
       shoot: {
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_36__["images"].mario.shoot.fireFlower.right),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_36__["images"].mario.shoot.fireFlower.left)
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_37__["images"].mario.shoot.fireFlower.right),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_37__["images"].mario.shoot.fireFlower.left)
         }
       }
     };
@@ -10792,7 +10807,7 @@ var Goomba = /*#__PURE__*/function () {
     };
     this.width = 43.33;
     this.height = 50;
-    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteGoomba_png__WEBPACK_IMPORTED_MODULE_34__["default"]);
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteGoomba_png__WEBPACK_IMPORTED_MODULE_35__["default"]);
     this.frames = 0;
     this.distance = distance;
   }
@@ -10843,7 +10858,7 @@ var FireFlower = /*#__PURE__*/function () {
     };
     this.width = 56;
     this.height = 60;
-    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlower_png__WEBPACK_IMPORTED_MODULE_33__["default"]);
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlower_png__WEBPACK_IMPORTED_MODULE_34__["default"]);
     this.frames = 0;
   }
 
@@ -10953,7 +10968,7 @@ var game;
 var currentLevel = 1;
 
 function selectLevel(currentLevel) {
-  if (!_audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].musicLevel1.playing()) _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].musicLevel1.play();
+  if (!_audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].musicLevel1.playing()) _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].musicLevel1.play();
 
   switch (currentLevel) {
     case 1:
@@ -10996,46 +11011,40 @@ function _init() {
           case 6:
             platformImage = _context.sent;
             _context.next = 9;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_9__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_10__["default"]);
 
           case 9:
             platformSmallTallImage = _context.sent;
             _context.next = 12;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_11__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
 
           case 12:
             blockTriImage = _context.sent;
             _context.next = 15;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_10__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_11__["default"]);
 
           case 15:
             blockImage = _context.sent;
             _context.next = 18;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
 
           case 18:
             lgPlatformImage = _context.sent;
             _context.next = 21;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
 
           case 21:
             tPlatformImage = _context.sent;
             _context.next = 24;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
 
           case 24:
             xtPlatformImage = _context.sent;
             _context.next = 27;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_flagPole_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farolFinal_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
 
           case 27:
             flagPoleImage = _context.sent;
-            flagPole = new GenericObject({
-              x: 6968 + 600,
-              // x: 500,
-              y: canvas.height - lgPlatformImage.height - flagPoleImage.height,
-              image: flagPoleImage
-            });
             fireFlowers = [new FireFlower({
               position: {
                 x: 400,
@@ -11200,14 +11209,24 @@ function _init() {
               block: true,
               text: 6968 + 300
             })];
+            flagPole = new GenericObject({
+              x: 6968 + 600,
+              // x: 500,
+              y: canvas.height - lgPlatformImage.height - flagPoleImage.height,
+              image: flagPoleImage
+            });
             genericObjects = [new GenericObject({
               x: -1,
               y: -1,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_background_png__WEBPACK_IMPORTED_MODULE_8__["default"])
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_ceu_png__WEBPACK_IMPORTED_MODULE_8__["default"])
             }), new GenericObject({
               x: -1,
-              y: -1,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_hills_png__WEBPACK_IMPORTED_MODULE_7__["default"])
+              y: 110,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_casas_png__WEBPACK_IMPORTED_MODULE_7__["default"])
+            }), new GenericObject({
+              x: 3000,
+              y: 500,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_dunas_png__WEBPACK_IMPORTED_MODULE_9__["default"])
             })];
             scrollOffset = 0;
             platformsMap = ['lg', 'lg', 'gap', 'lg', 'gap', 'gap', 'lg', 'gap', 't', 'gap', 'xt', 'gap', 'xt', 'gap', 'gap', 'xt'];
@@ -11287,42 +11306,42 @@ function _initLevel() {
               disableUserInput: false
             };
             _context2.next = 6;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_11__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
 
           case 6:
             blockTriImage = _context2.sent;
             _context2.next = 9;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_10__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_11__["default"]);
 
           case 9:
             blockImage = _context2.sent;
             _context2.next = 12;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_36__["images"].levels[2].lgPlatform);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_37__["images"].levels[2].lgPlatform);
 
           case 12:
             lgPlatformImage = _context2.sent;
             _context2.next = 15;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
 
           case 15:
             tPlatformImage = _context2.sent;
             _context2.next = 18;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
 
           case 18:
             xtPlatformImage = _context2.sent;
             _context2.next = 21;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_flagPole_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farolFinal_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
 
           case 21:
             flagPoleImage = _context2.sent;
             _context2.next = 24;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_36__["images"].levels[2].mountains);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_37__["images"].levels[2].mountains);
 
           case 24:
             mountains = _context2.sent;
             _context2.next = 27;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_36__["images"].levels[2].mdPlatform);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_37__["images"].levels[2].mdPlatform);
 
           case 27:
             mdPlatformImage = _context2.sent;
@@ -11458,7 +11477,7 @@ function _initLevel() {
             genericObjects = [new GenericObject({
               x: -1,
               y: -1,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_36__["images"].levels[2].background)
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_37__["images"].levels[2].background)
             }), new GenericObject({
               x: -1,
               y: canvas.height - mountains.height,
@@ -11557,8 +11576,8 @@ function animate() {
       object1: player,
       object2: flagPole
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].completeLevel.play();
-      _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].musicLevel1.stop();
+      _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].completeLevel.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].musicLevel1.stop();
       game.disableUserInput = true;
       player.velocity.x = 0;
       player.velocity.y = 0;
@@ -11567,7 +11586,7 @@ function animate() {
       if (player.powerUps.fireFlower) player.currentSprite = player.sprites.stand.fireFlower.right; // flagpole slide
 
       setTimeout(function () {
-        _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].descend.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].descend.play();
       }, 200);
       gsap__WEBPACK_IMPORTED_MODULE_4__["default"].to(player.position, {
         y: canvas.height - lgPlatformImage.height - player.height,
@@ -11605,8 +11624,8 @@ function animate() {
           }));
         }
 
-        _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].fireworkBurst.play();
-        _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].fireworkWhistle.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].fireworkBurst.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].fireworkWhistle.play();
         if (increment === 3) clearInterval(intervalId);
         increment++;
       }, 1000); // switch to the next level
@@ -11625,7 +11644,7 @@ function animate() {
       object1: player,
       object2: fireFlower
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].obtainPowerUp.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].obtainPowerUp.play();
       player.powerUps.fireFlower = true;
       setTimeout(function () {
         fireFlowers.splice(i, 1);
@@ -11662,7 +11681,7 @@ function animate() {
       object1: player,
       object2: goomba
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].goombaSquash.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].goombaSquash.play();
 
       for (var i = 0; i < 50; i++) {
         particles.push(new Particle({
@@ -11688,12 +11707,12 @@ function animate() {
       if (player.powerUps.fireFlower) {
         player.invincible = true;
         player.powerUps.fireFlower = false;
-        _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].losePowerUp.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].losePowerUp.play();
         setTimeout(function () {
           player.invincible = false;
         }, 1000);
       } else if (!player.invincible) {
-        _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].die.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].die.play();
         selectLevel(currentLevel);
       }
     }
@@ -11830,7 +11849,7 @@ function animate() {
   }); // lose condition
 
   if (player.position.y > canvas.height) {
-    _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].die.play();
+    _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].die.play();
     selectLevel(currentLevel);
   } // sprite switching
 
@@ -11884,7 +11903,17 @@ addEventListener('keydown', function (_ref6) {
       lastKey = 'left';
       break;
 
+    case 37:
+      console.log('left');
+      keys.left.pressed = true;
+      lastKey = 'left';
+      break;
+
     case 83:
+      console.log('down');
+      break;
+
+    case 40:
       console.log('down');
       break;
 
@@ -11894,10 +11923,25 @@ addEventListener('keydown', function (_ref6) {
       lastKey = 'right';
       break;
 
+    case 39:
+      console.log('right');
+      keys.right.pressed = true;
+      lastKey = 'right';
+      break;
+
     case 87:
       console.log('up');
       player.velocity.y -= 25;
-      _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].jump.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].jump.play();
+      if (lastKey === 'right') player.currentSprite = player.sprites.jump.right;else player.currentSprite = player.sprites.jump.left;
+      if (!player.powerUps.fireFlower) break;
+      if (lastKey === 'right') player.currentSprite = player.sprites.jump.fireFlower.right;else player.currentSprite = player.sprites.jump.fireFlower.left;
+      break;
+
+    case 38:
+      console.log('up');
+      player.velocity.y -= 25;
+      _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].jump.play();
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.right;else player.currentSprite = player.sprites.jump.left;
       if (!player.powerUps.fireFlower) break;
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.fireFlower.right;else player.currentSprite = player.sprites.jump.fireFlower.left;
@@ -11910,7 +11954,7 @@ addEventListener('keydown', function (_ref6) {
       setTimeout(function () {
         player.shooting = false;
       }, 100);
-      _audio_js__WEBPACK_IMPORTED_MODULE_35__["audio"].fireFlowerShot.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_36__["audio"].fireFlowerShot.play();
       var velocity = 15;
       if (lastKey === 'left') velocity = -velocity;
       particles.push(new Particle({
@@ -11939,7 +11983,16 @@ addEventListener('keyup', function (_ref7) {
       keys.left.pressed = false;
       break;
 
+    case 37:
+      console.log('left');
+      keys.left.pressed = false;
+      break;
+
     case 83:
+      console.log('down');
+      break;
+
+    case 40:
       console.log('down');
       break;
 
@@ -11948,7 +12001,16 @@ addEventListener('keyup', function (_ref7) {
       keys.right.pressed = false;
       break;
 
+    case 39:
+      console.log('right');
+      keys.right.pressed = false;
+      break;
+
     case 87:
+      console.log('up');
+      break;
+
+    case 38:
       console.log('up');
       break;
   }
