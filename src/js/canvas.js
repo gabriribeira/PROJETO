@@ -10,11 +10,11 @@ import {
   objectsTouch
 } from './utils.js'
 
+import mar from '../img/mar.png'
 import platform from '../img/platform.png'
 import casas from '../img/casas.png'
 import background from '../img/ceu.png'
 import dunas from '../img/dunas.png'
-import mar175 from '../img/mar175.png'
 
 import platformSmallTall from '../img/platformSmallTall.png'
 import block from '../img/block.png'
@@ -25,22 +25,17 @@ import tPlatform from '../img/tPlatform.png'
 import xtPlatform from '../img/xtPlatform.png'
 import flagPoleSprite from '../img/farol_destruido.png'
 
-import spriteRunLeft from '../img/spriteRunLeft.png'
-import spriteRunRight from '../img/spriteRunRight.png'
-import spriteStandLeft from '../img/spriteStandLeft.png'
-import spriteStandRight from '../img/spriteStandRight.png'
-
-import spriteMarioRunLeft from '../img/spriteMarioRunLeft.png'
-import spriteMarioRunRight from '../img/spriteMarioRunRight.png'
-import spriteMarioStandLeft from '../img/spriteMarioStandLeft.png'
-import spriteMarioStandRight from '../img/spriteMarioStandRight.png'
+import spriteMarioRunLeft from '../img/spriteRunLeft.png'
+import spriteMarioRunRight from '../img/spriteRunRight.png'
+import standRight from '../img/standRight.png'
+import standLeft from '../img/standLeft.png'
 import spriteMarioJumpRight from '../img/spriteMarioJumpRight.png'
 import spriteMarioJumpLeft from '../img/spriteMarioJumpLeft.png'
 
 import spriteFireFlowerRunRight from '../img/spriteFireFlowerRunRight.png'
 import spriteFireFlowerRunLeft from '../img/spriteFireFlowerRunLeft.png'
-import spriteFireFlowerStandRight from '../img/spriteFireFlowerStandRight.png'
-import spriteFireFlowerStandLeft from '../img/spriteFireFlowerStandLeft.png'
+import fireFlowerStandRight from '../img/fireFlowerStandRight.png'
+import fireFlowerStandLeft from '../img/fireFlowerStandLeft.png'
 import spriteFireFlowerJumpRight from '../img/spriteFireFlowerJumpRight.png'
 import spriteFireFlowerJumpLeft from '../img/spriteFireFlowerJumpLeft.png'
 
@@ -74,18 +69,18 @@ class Player {
     }
 
     this.scale = 0.3
-    this.width = 398 * this.scale
-    this.height = 353 * this.scale
+    this.width = 400 * this.scale
+    this.height = 404 * this.scale
 
-    this.image = createImage(spriteStandRight)
+    this.image = createImage(standRight)
     this.frames = 0
     this.sprites = {
       stand: {
-        right: createImage(spriteMarioStandRight),
-        left: createImage(spriteMarioStandLeft),
+        right: createImage(standRight),
+        left: createImage(standLeft),
         fireFlower: {
-          right: createImage(spriteFireFlowerStandRight),
-          left: createImage(spriteFireFlowerStandLeft)
+          right: createImage(fireFlowerStandRight),
+          left: createImage(fireFlowerStandLeft)
         }
       },
       run: {
@@ -113,7 +108,7 @@ class Player {
     }
 
     this.currentSprite = this.sprites.stand.right
-    this.currentCropWidth = 398
+    this.currentCropWidth = 401
     this.powerUps = {
       fireFlower: false
     }
@@ -124,14 +119,12 @@ class Player {
   draw() {
     c.save()
     c.globalAlpha = this.opacity
-    c.fillStyle = 'rgba(255, 0, 0, .2)'
-    c.fillRect(this.position.x, this.position.y, this.width, this.height)
     c.drawImage(
         this.currentSprite,
         this.currentCropWidth * this.frames,
         0,
         this.currentCropWidth,
-        353,
+        401,
         this.position.x,
         this.position.y,
         this.width,
@@ -144,13 +137,10 @@ class Player {
     this.frames++
     const { currentSprite, sprites } = this
 
-    if (
-        this.frames > 58 &&
-        (currentSprite === sprites.stand.right ||
+    if (currentSprite === sprites.stand.right ||
             currentSprite === sprites.stand.left ||
             currentSprite === sprites.stand.fireFlower.left ||
             currentSprite === sprites.stand.fireFlower.right)
-    )
       this.frames = 0
     else if (
         this.frames > 28 &&
@@ -219,6 +209,32 @@ class Platform {
 }
 
 class GenericObject {
+  constructor({ x, y, image }) {
+    this.position = {
+      x,
+      y
+    }
+
+    this.velocity = {
+      x: 0
+    }
+
+    this.image = image
+    this.width = image.width
+    this.height = image.height
+  }
+
+  draw() {
+    c.drawImage(this.image, this.position.x, this.position.y)
+  }
+
+  update() {
+    this.draw()
+    this.position.x += this.velocity.x
+  }
+}
+
+class GenericObjectMar {
   constructor({ x, y, image }) {
     this.position = {
       x,
@@ -473,6 +489,7 @@ let blockImage
 let player = new Player()
 let platforms = []
 let genericObjects = []
+let genericObjectsMar = []
 let goombas = []
 let polvos = []
 let particles = []
@@ -485,19 +502,390 @@ let scrollOffset
 let flagPole
 let flagPoleImage
 let game
+
+
+
+
 let currentLevel = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function selectLevel(currentLevel) {
   if (!audio.musicLevel1.playing()) audio.musicLevel1.play()
   switch (currentLevel) {
+    case 0:
+      menuInicial()
+      break
     case 1:
-      init()
+      init0()
       break
     case 2:
+      init()
+      break
+    case 3:
       initLevel2()
       break
   }
 }
+
+async function menuInicial(){
+
+}
+
+async function init0() {
+  player = new Player()
+  keys = {
+    right: {
+      pressed: false
+    },
+    left: {
+      pressed: false
+    }
+  }
+  scrollOffset = 0
+
+  game = {
+    disableUserInput: false
+  }
+
+  platformImage = await createImageAsync(platform)
+  platformSmallTallImage = await createImageAsync(platformSmallTall)
+  blockTriImage = await createImageAsync(blockTri)
+  blockImage = await createImageAsync(block)
+  lgPlatformImage = await createImageAsync(lgPlatform)
+  tPlatformImage = await createImageAsync(tPlatform)
+  xtPlatformImage = await createImageAsync(xtPlatform)
+  flagPoleImage = await createImageAsync(flagPoleSprite)
+
+  fireFlowers = [
+    new FireFlower({
+      position: {
+        x: 3000,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    })
+  ]
+
+  player = new Player()
+
+  const polvoWidth = 100
+
+  polvos = [
+    new Polvo({
+      position: {
+        x:2400,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 200,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x:3400,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 200,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x:3400 + polvoWidth,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 200,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x:3400 + polvoWidth + polvoWidth,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 200,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x:3400 + polvoWidth + polvoWidth + polvoWidth,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 200,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x:3400 + polvoWidth + polvoWidth + polvoWidth + polvoWidth,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 200,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x:4850,
+        y: 350
+      },
+      velocity: {
+        x: 0,
+        y:0
+      },
+      distance: {
+        limit: 0,
+        traveled: 0
+      }
+    })
+
+  ]
+
+  particles = []
+  platforms = [
+    new Platform({
+      x: 1500,
+      y: 370,
+      image: blockTriImage,
+      block: true
+    }),
+    new Platform({
+      x: 1580,
+      y: 275,
+      image: blockImage,
+      block: true
+    }),
+    new Platform({
+      x: 4400,
+      y: 375,
+      image: blockTriImage,
+      block: true
+    }),
+    new Platform({
+      x: 4700,
+      y: 225,
+      image: blockImage,
+      block: true
+    }),
+    new Platform({
+      x: 4850,
+      y: 425,
+      image: blockImage,
+      block: true
+    }),
+    new Platform({
+      x: 5000,
+      y: 325,
+      image: blockImage,
+      block: true
+    }),
+    new Platform({
+      x: 5350,
+      y: 225,
+      image: blockImage,
+      block: true
+    }),
+  ]
+
+  flagPole = new GenericObject({
+    x: 5600,
+    // x: 500,
+    y: canvas.height - lgPlatformImage.height -  flagPoleImage.height - 100,
+    image: flagPoleImage
+  })
+
+  genericObjects = [
+
+    new GenericObject({
+      x: -1,
+      y: -1,
+      image: createImage(background)
+    }),
+
+    new GenericObject({
+      x: 3000,
+      y: 500,
+      image: createImage(dunas)
+    }),
+
+  ]
+
+  genericObjectsMar= [
+    new GenericObjectMar({
+      x: -1,
+      y: 570,
+      image: createImage(mar)
+    }),
+  ]
+
+
+  scrollOffset = 0
+
+  const platformsMap = [
+    'lg',
+    'lg',
+    'lg',
+    'lg',
+    'lg',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'lg',
+    'lg',
+  ]
+
+  let platformDistance = 0
+
+  platformsMap.forEach((symbol) => {
+    switch (symbol) {
+
+      case 'lg':
+        platforms.push(
+            new Platform({
+              x: platformDistance,
+              y: canvas.height - lgPlatformImage.height - 100,
+              image: lgPlatformImage,
+              block: true,
+              text: platformDistance
+            })
+        )
+
+        platformDistance += lgPlatformImage.width - 2
+
+        break
+
+      case 'gap':
+        platformDistance += 175
+
+        break
+
+      case 't':
+        platforms.push(
+            new Platform({
+              x: platformDistance,
+              y: canvas.height - tPlatformImage.height,
+              image: tPlatformImage,
+              block: true
+            })
+        )
+
+        platformDistance += tPlatformImage.width - 2
+
+        break
+
+      case 'xt':
+        platforms.push(
+            new Platform({
+              x: platformDistance,
+              y: canvas.height - xtPlatformImage.height,
+              image: xtPlatformImage,
+              block: true,
+              text: platformDistance
+            })
+        )
+
+        platformDistance += xtPlatformImage.width - 2
+
+        break
+    }
+
+
+  })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 async function init() {
   player = new Player()
@@ -685,7 +1073,7 @@ async function init() {
     }),
     new Platform({
       x: 1991 + lgPlatformImage.width - tPlatformImage.width,
-      y: canvas.height - lgPlatformImage.height - tPlatformImage.height,
+      y: canvas.height - lgPlatformImage.height - tPlatformImage.height - 300,
       image: tPlatformImage,
       block: false
     }),
@@ -739,7 +1127,7 @@ async function init() {
     }),
     new Platform({
       x: 6968 + 300,
-      y: canvas.height - lgPlatformImage.height,
+      y: canvas.height - lgPlatformImage.height - 100,
       image: lgPlatformImage,
       block: true,
       text: 6968 + 300
@@ -749,7 +1137,7 @@ async function init() {
   flagPole = new GenericObject({
     x: 6968 + 600,
     // x: 500,
-    y: canvas.height - lgPlatformImage.height -  flagPoleImage.height,
+    y: canvas.height - lgPlatformImage.height -  flagPoleImage.height - 100,
     image: flagPoleImage
   })
   genericObjects = [
@@ -760,7 +1148,7 @@ async function init() {
     }),
     new GenericObject({
       x: -1,
-      y: 225,
+      y: 100,
       image: createImage(casas)
     }),
     new GenericObject({
@@ -769,6 +1157,15 @@ async function init() {
       image: createImage(dunas)
     }),
   ]
+
+  genericObjectsMar= [
+    new GenericObjectMar({
+      x: 0,
+      y: 580,
+      image: createImage(mar)
+    }),
+  ]
+
 
   scrollOffset = 0
 
@@ -795,11 +1192,12 @@ async function init() {
 
   platformsMap.forEach((symbol) => {
     switch (symbol) {
+
       case 'lg':
         platforms.push(
             new Platform({
               x: platformDistance,
-              y: canvas.height - lgPlatformImage.height,
+              y: canvas.height - lgPlatformImage.height - 100,
               image: lgPlatformImage,
               block: true,
               text: platformDistance
@@ -844,8 +1242,50 @@ async function init() {
 
         break
     }
+
+
   })
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 async function initLevel2() {
   player = new Player()
@@ -1172,6 +1612,11 @@ function animate() {
     platform.velocity.x = 0
   })
 
+  genericObjectsMar.forEach((genericObjectMar) => {
+    genericObjectMar.update()
+    genericObjectMar.velocity.x = 0
+  })
+
   if (flagPole) {
     flagPole.update()
     flagPole.velocity.x = 0
@@ -1203,7 +1648,7 @@ function animate() {
         audio.descend.play()
       }, 200)
       gsap.to(player.position, {
-        y: canvas.height - lgPlatformImage.height - player.height,
+        y: canvas.height - lgPlatformImage.height - player.height - 100,
         duration: 1,
         onComplete() {
           player.currentSprite = player.sprites.run.right
@@ -1500,7 +1945,11 @@ function animate() {
         flagPole.velocity.x = -player.speed
 
         genericObjects.forEach((genericObject) => {
-          genericObject.velocity.x = -player.speed * 0.4
+          genericObject.velocity.x = -player.speed * 0.2
+        })
+
+        genericObjectsMar.forEach((genericObjectMar) => {
+          genericObjectMar.velocity.x = -player.speed * 0.5
         })
 
         goombas.forEach((goomba) => {
@@ -1548,6 +1997,11 @@ function animate() {
         genericObjects.forEach((genericObject) => {
           genericObject.velocity.x = player.speed * 0.2
         })
+
+        genericObjectsMar.forEach((genericObjectMar) => {
+          genericObjectMar.velocity.x = player.speed * 0.5
+        })
+
 
         goombas.forEach((goomba) => {
           goomba.position.x += player.speed
