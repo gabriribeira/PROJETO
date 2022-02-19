@@ -4,7 +4,7 @@ cd (diretorio)
 
 cd  ..
 
-git clone 
+git clone https://github.com/gabriribeira/PROJETO.git
 
 cd __ nome da pasta
 
