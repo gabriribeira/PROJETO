@@ -1,4 +1,4 @@
-import { Howl } from 'howler'
+  import { Howl } from 'howler'
 import audioCompleteLevel from '../audio/audioCompleteLevel.mp3'
 import audioDescend from '../audio/audioDescend.mp3'
 import audioDie from '../audio/audioDie.mp3'

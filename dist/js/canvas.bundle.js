@@ -9983,6 +9983,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/boias.png":
+/*!***************************!*\
+  !*** ./src/img/boias.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "136686524e1fc4b0967e3a6f3312ff22.png");
+
+/***/ }),
+
 /***/ "./src/img/casas.png":
 /*!***************************!*\
   !*** ./src/img/casas.png ***!
@@ -10006,6 +10019,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ae54f4569dd111916d9160d7e5799291.png");
+
+/***/ }),
+
+/***/ "./src/img/crab.png":
+/*!**************************!*\
+  !*** ./src/img/crab.png ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "c96e78dd3a6c0b456274243cbad21c58.png");
 
 /***/ }),
 
@@ -10058,6 +10084,45 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ee0ca02a7c839600e1f3e24ce9717fa8.png");
+
+/***/ }),
+
+/***/ "./src/img/flamengo.png":
+/*!******************************!*\
+  !*** ./src/img/flamengo.png ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "04ec2dbc9c5464db30ab6cbe4ab4360d.png");
+
+/***/ }),
+
+/***/ "./src/img/guarda_sol_amarelo.png":
+/*!****************************************!*\
+  !*** ./src/img/guarda_sol_amarelo.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "306e801416a19ea1d76421f960a4c31d.png");
+
+/***/ }),
+
+/***/ "./src/img/guarda_sol_vermelho.png":
+/*!*****************************************!*\
+  !*** ./src/img/guarda_sol_vermelho.png ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "36036362057d1eeb332fabba201b2d24.png");
 
 /***/ }),
 
@@ -10152,6 +10217,110 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/moeda.png":
+/*!***************************!*\
+  !*** ./src/img/moeda.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "4844a6362cedb5cbfb675b9551985671.png");
+
+/***/ }),
+
+/***/ "./src/img/placa_farol.png":
+/*!*********************************!*\
+  !*** ./src/img/placa_farol.png ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "0658fd3eea88b3baa1c689c221eeed1f.png");
+
+/***/ }),
+
+/***/ "./src/img/placa_inimigos.png":
+/*!************************************!*\
+  !*** ./src/img/placa_inimigos.png ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ad21f51ff296044c9cc972a387b998b8.png");
+
+/***/ }),
+
+/***/ "./src/img/placa_mar.png":
+/*!*******************************!*\
+  !*** ./src/img/placa_mar.png ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "d4d5a9f1ad620744a63fb3098cf4da6f.png");
+
+/***/ }),
+
+/***/ "./src/img/placa_mover.png":
+/*!*********************************!*\
+  !*** ./src/img/placa_mover.png ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "367d4ba0d4587dd1659e48f580d4b9a9.png");
+
+/***/ }),
+
+/***/ "./src/img/placa_powerup.png":
+/*!***********************************!*\
+  !*** ./src/img/placa_powerup.png ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "2133d817456de2a5c9c6dd044216bf51.png");
+
+/***/ }),
+
+/***/ "./src/img/placa_saltar.png":
+/*!**********************************!*\
+  !*** ./src/img/placa_saltar.png ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "44b51d9f60b67628275bbb610cc0829c.png");
+
+/***/ }),
+
+/***/ "./src/img/placa_tiros.png":
+/*!*********************************!*\
+  !*** ./src/img/placa_tiros.png ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "73ae34f9fc7d2f91d26a5e8cd64ad280.png");
+
+/***/ }),
+
 /***/ "./src/img/platform.png":
 /*!******************************!*\
   !*** ./src/img/platform.png ***!
@@ -10191,16 +10360,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/spriteFireFlower.png":
-/*!**************************************!*\
-  !*** ./src/img/spriteFireFlower.png ***!
-  \**************************************/
+/***/ "./src/img/sal.png":
+/*!*************************!*\
+  !*** ./src/img/sal.png ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "434554c25d0262d9ae16c700febfa462.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "39ebef8a49f5c6f639054ae87492204e.png");
 
 /***/ }),
 
@@ -10213,7 +10382,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "fe7f83abbc33795c55d5bbab3ab117f3.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "efc83946f85da1dd680bed20c40eaf41.png");
 
 /***/ }),
 
@@ -10226,7 +10395,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "b5b7bdebff9886acfe07b077e9357d84.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "9cbf12cf2f22817962eb9b8213ed73e8.png");
 
 /***/ }),
 
@@ -10239,7 +10408,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dac857eaeda937793a54db5301b14e46.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "9dbb2ea6eef6eaf7a77c976257148ec1.png");
 
 /***/ }),
 
@@ -10265,7 +10434,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "968edc488cf0846c4e3ee0c70a603576.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "921b88245dbb21256cd75f6879568cd7.png");
 
 /***/ }),
 
@@ -10278,7 +10447,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "b800c0a402dc6ef4a09a8a2cabf21b0c.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "6e473825ab75485960327caa518ebef0.png");
 
 /***/ }),
 
@@ -10295,29 +10464,29 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/spriteMarioJumpLeft.png":
-/*!*****************************************!*\
-  !*** ./src/img/spriteMarioJumpLeft.png ***!
-  \*****************************************/
+/***/ "./src/img/spriteJumpLeft.png":
+/*!************************************!*\
+  !*** ./src/img/spriteJumpLeft.png ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "79a87181aec94b5e1d21942963ebe634.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "6a3cbb50b46138929a52ea1917006e6c.png");
 
 /***/ }),
 
-/***/ "./src/img/spriteMarioJumpRight.png":
-/*!******************************************!*\
-  !*** ./src/img/spriteMarioJumpRight.png ***!
-  \******************************************/
+/***/ "./src/img/spriteJumpRight.png":
+/*!*************************************!*\
+  !*** ./src/img/spriteJumpRight.png ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ffdd5958ac8fc0192de1a8855d128203.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "1ca8c37b3e1a551710d6aab9914e38fa.png");
 
 /***/ }),
 
@@ -10383,6 +10552,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "42b0475d9eb8fa69100c309c86a293c1.png");
+
+/***/ }),
+
+/***/ "./src/img/tijolo.png":
+/*!****************************!*\
+  !*** ./src/img/tijolo.png ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "edc74b6bd4a8f28cd01de029490de0cb.png");
 
 /***/ }),
 
@@ -10518,28 +10700,56 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/platformSmallTall.png */ "./src/img/platformSmallTall.png");
 /* harmony import */ var _img_block_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/block.png */ "./src/img/block.png");
 /* harmony import */ var _img_blockTri_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/blockTri.png */ "./src/img/blockTri.png");
-/* harmony import */ var _img_mdPlatform_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/mdPlatform.png */ "./src/img/mdPlatform.png");
-/* harmony import */ var _img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/lgPlatform.png */ "./src/img/lgPlatform.png");
-/* harmony import */ var _img_tPlatform_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/tPlatform.png */ "./src/img/tPlatform.png");
-/* harmony import */ var _img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/xtPlatform.png */ "./src/img/xtPlatform.png");
-/* harmony import */ var _img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/farol_destruido.png */ "./src/img/farol_destruido.png");
-/* harmony import */ var _img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/spriteRunLeft.png */ "./src/img/spriteRunLeft.png");
-/* harmony import */ var _img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/spriteRunRight.png */ "./src/img/spriteRunRight.png");
-/* harmony import */ var _img_standRight_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/standRight.png */ "./src/img/standRight.png");
-/* harmony import */ var _img_standLeft_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/standLeft.png */ "./src/img/standLeft.png");
-/* harmony import */ var _img_spriteMarioJumpRight_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/spriteMarioJumpRight.png */ "./src/img/spriteMarioJumpRight.png");
-/* harmony import */ var _img_spriteMarioJumpLeft_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/spriteMarioJumpLeft.png */ "./src/img/spriteMarioJumpLeft.png");
-/* harmony import */ var _img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/spriteFireFlowerRunRight.png */ "./src/img/spriteFireFlowerRunRight.png");
-/* harmony import */ var _img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/spriteFireFlowerRunLeft.png */ "./src/img/spriteFireFlowerRunLeft.png");
-/* harmony import */ var _img_fireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/fireFlowerStandRight.png */ "./src/img/fireFlowerStandRight.png");
-/* harmony import */ var _img_fireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/fireFlowerStandLeft.png */ "./src/img/fireFlowerStandLeft.png");
-/* harmony import */ var _img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpRight.png */ "./src/img/spriteFireFlowerJumpRight.png");
-/* harmony import */ var _img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpLeft.png */ "./src/img/spriteFireFlowerJumpLeft.png");
-/* harmony import */ var _img_spriteFireFlower_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/spriteFireFlower.png */ "./src/img/spriteFireFlower.png");
-/* harmony import */ var _img_spriteGoomba_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/spriteGoomba.png */ "./src/img/spriteGoomba.png");
-/* harmony import */ var _img_polvo_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/polvo.png */ "./src/img/polvo.png");
-/* harmony import */ var _audio_js__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./audio.js */ "./src/js/audio.js");
-/* harmony import */ var _images_js__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./images.js */ "./src/js/images.js");
+/* harmony import */ var _img_boias_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/boias.png */ "./src/img/boias.png");
+/* harmony import */ var _img_flamengo_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/flamengo.png */ "./src/img/flamengo.png");
+/* harmony import */ var _img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/guarda_sol_vermelho.png */ "./src/img/guarda_sol_vermelho.png");
+/* harmony import */ var _img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/guarda_sol_amarelo.png */ "./src/img/guarda_sol_amarelo.png");
+/* harmony import */ var _img_mdPlatform_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/mdPlatform.png */ "./src/img/mdPlatform.png");
+/* harmony import */ var _img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/lgPlatform.png */ "./src/img/lgPlatform.png");
+/* harmony import */ var _img_tPlatform_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/tPlatform.png */ "./src/img/tPlatform.png");
+/* harmony import */ var _img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/xtPlatform.png */ "./src/img/xtPlatform.png");
+/* harmony import */ var _img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/farol_destruido.png */ "./src/img/farol_destruido.png");
+/* harmony import */ var _img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/spriteRunLeft.png */ "./src/img/spriteRunLeft.png");
+/* harmony import */ var _img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/spriteRunRight.png */ "./src/img/spriteRunRight.png");
+/* harmony import */ var _img_standRight_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/standRight.png */ "./src/img/standRight.png");
+/* harmony import */ var _img_standLeft_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/standLeft.png */ "./src/img/standLeft.png");
+/* harmony import */ var _img_spriteJumpRight_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/spriteJumpRight.png */ "./src/img/spriteJumpRight.png");
+/* harmony import */ var _img_spriteJumpLeft_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/spriteJumpLeft.png */ "./src/img/spriteJumpLeft.png");
+/* harmony import */ var _img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/spriteFireFlowerRunRight.png */ "./src/img/spriteFireFlowerRunRight.png");
+/* harmony import */ var _img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/spriteFireFlowerRunLeft.png */ "./src/img/spriteFireFlowerRunLeft.png");
+/* harmony import */ var _img_fireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/fireFlowerStandRight.png */ "./src/img/fireFlowerStandRight.png");
+/* harmony import */ var _img_fireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/fireFlowerStandLeft.png */ "./src/img/fireFlowerStandLeft.png");
+/* harmony import */ var _img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpRight.png */ "./src/img/spriteFireFlowerJumpRight.png");
+/* harmony import */ var _img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpLeft.png */ "./src/img/spriteFireFlowerJumpLeft.png");
+/* harmony import */ var _img_sal_png__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../img/sal.png */ "./src/img/sal.png");
+/* harmony import */ var _img_moeda_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../img/moeda.png */ "./src/img/moeda.png");
+/* harmony import */ var _img_tijolo_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../img/tijolo.png */ "./src/img/tijolo.png");
+/* harmony import */ var _img_spriteGoomba_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../img/spriteGoomba.png */ "./src/img/spriteGoomba.png");
+/* harmony import */ var _img_polvo_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../img/polvo.png */ "./src/img/polvo.png");
+/* harmony import */ var _img_crab_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../img/crab.png */ "./src/img/crab.png");
+/* harmony import */ var _img_placa_farol_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../img/placa_farol.png */ "./src/img/placa_farol.png");
+/* harmony import */ var _img_placa_mar_png__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../img/placa_mar.png */ "./src/img/placa_mar.png");
+/* harmony import */ var _img_placa_mover_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../img/placa_mover.png */ "./src/img/placa_mover.png");
+/* harmony import */ var _img_placa_powerup_png__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../img/placa_powerup.png */ "./src/img/placa_powerup.png");
+/* harmony import */ var _img_placa_saltar_png__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../img/placa_saltar.png */ "./src/img/placa_saltar.png");
+/* harmony import */ var _img_placa_inimigos_png__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ../img/placa_inimigos.png */ "./src/img/placa_inimigos.png");
+/* harmony import */ var _img_placa_tiros_png__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../img/placa_tiros.png */ "./src/img/placa_tiros.png");
+/* harmony import */ var _audio_js__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./audio.js */ "./src/js/audio.js");
+/* harmony import */ var _images_js__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./images.js */ "./src/js/images.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10599,37 +10809,37 @@ var Player = /*#__PURE__*/function () {
     this.scale = 0.3;
     this.width = 400 * this.scale;
     this.height = 404 * this.scale;
-    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standRight_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standRight_png__WEBPACK_IMPORTED_MODULE_25__["default"]);
     this.frames = 0;
     this.sprites = {
       stand: {
-        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standRight_png__WEBPACK_IMPORTED_MODULE_21__["default"]),
-        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standLeft_png__WEBPACK_IMPORTED_MODULE_22__["default"]),
+        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standRight_png__WEBPACK_IMPORTED_MODULE_25__["default"]),
+        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standLeft_png__WEBPACK_IMPORTED_MODULE_26__["default"]),
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_fireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_27__["default"]),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_fireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_28__["default"])
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_fireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_31__["default"]),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_fireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_32__["default"])
         }
       },
       run: {
-        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_20__["default"]),
-        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_19__["default"]),
+        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_24__["default"]),
+        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_23__["default"]),
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_25__["default"]),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_26__["default"])
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_29__["default"]),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_30__["default"])
         }
       },
       jump: {
-        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioJumpRight_png__WEBPACK_IMPORTED_MODULE_23__["default"]),
-        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteMarioJumpLeft_png__WEBPACK_IMPORTED_MODULE_24__["default"]),
+        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteJumpRight_png__WEBPACK_IMPORTED_MODULE_27__["default"]),
+        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteJumpLeft_png__WEBPACK_IMPORTED_MODULE_28__["default"]),
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_29__["default"]),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_30__["default"])
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_33__["default"]),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_34__["default"])
         }
       },
       shoot: {
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_35__["images"].mario.shoot.fireFlower.right),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_35__["images"].mario.shoot.fireFlower.left)
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].mario.shoot.fireFlower.right),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].mario.shoot.fireFlower.left)
         }
       }
     };
@@ -10692,19 +10902,12 @@ var Platform = /*#__PURE__*/function () {
     this.width = image.width;
     this.height = image.height;
     this.block = block;
-    this.text = text;
   }
 
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Platform, [{
     key: "draw",
     value: function draw() {
       c.drawImage(this.image, this.position.x, this.position.y);
-
-      if (this.text) {
-        c.font = '20px Arial';
-        c.fillStyle = 'red';
-        c.fillText(this.text, this.position.x, this.position.y);
-      }
     }
   }, {
     key: "update",
@@ -10753,13 +10956,13 @@ var GenericObject = /*#__PURE__*/function () {
   return GenericObject;
 }();
 
-var GenericObjectMar = /*#__PURE__*/function () {
-  function GenericObjectMar(_ref3) {
+var Mar = /*#__PURE__*/function () {
+  function Mar(_ref3) {
     var x = _ref3.x,
         y = _ref3.y,
         image = _ref3.image;
 
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, GenericObjectMar);
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Mar);
 
     this.position = {
       x: x,
@@ -10773,7 +10976,7 @@ var GenericObjectMar = /*#__PURE__*/function () {
     this.height = image.height;
   }
 
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(GenericObjectMar, [{
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Mar, [{
     key: "draw",
     value: function draw() {
       c.drawImage(this.image, this.position.x, this.position.y);
@@ -10786,63 +10989,43 @@ var GenericObjectMar = /*#__PURE__*/function () {
     }
   }]);
 
-  return GenericObjectMar;
+  return Mar;
 }();
 
-var Goomba = /*#__PURE__*/function () {
-  function Goomba(_ref4) {
-    var position = _ref4.position,
-        velocity = _ref4.velocity,
-        _ref4$distance = _ref4.distance,
-        distance = _ref4$distance === void 0 ? {
-      limit: 50,
-      traveled: 0
-    } : _ref4$distance;
+var FrontObject = /*#__PURE__*/function () {
+  function FrontObject(_ref4) {
+    var x = _ref4.x,
+        y = _ref4.y,
+        image = _ref4.image;
 
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Goomba);
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, FrontObject);
 
     this.position = {
-      x: position.x,
-      y: position.y
+      x: x,
+      y: y
     };
     this.velocity = {
-      x: velocity.x,
-      y: velocity.y
+      x: 0
     };
-    this.width = 43.33;
-    this.height = 50;
-    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteGoomba_png__WEBPACK_IMPORTED_MODULE_32__["default"]);
-    this.frames = 0;
-    this.distance = distance;
+    this.image = image;
+    this.width = image.width;
+    this.height = image.height;
   }
 
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Goomba, [{
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(FrontObject, [{
     key: "draw",
     value: function draw() {
-      // c.fillStyle = 'red'
-      // c.fillRect(this.position.x, this.position.y, this.width, this.height)
-      c.drawImage(this.image, 130 * this.frames, 0, 130, 150, this.position.x, this.position.y, this.width, this.height);
+      c.drawImage(this.image, this.position.x, this.position.y);
     }
   }, {
     key: "update",
     value: function update() {
-      this.frames++;
-      if (this.frames >= 58) this.frames = 0;
       this.draw();
       this.position.x += this.velocity.x;
-      this.position.y += this.velocity.y;
-      if (this.position.y + this.height + this.velocity.y <= canvas.height) this.velocity.y += gravity; // walk the goomba back and forth
-
-      this.distance.traveled += Math.abs(this.velocity.x);
-
-      if (this.distance.traveled > this.distance.limit) {
-        this.distance.traveled = 0;
-        this.velocity.x = -this.velocity.x;
-      }
     }
   }]);
 
-  return Goomba;
+  return FrontObject;
 }();
 
 var Polvo = /*#__PURE__*/function () {
@@ -10867,7 +11050,7 @@ var Polvo = /*#__PURE__*/function () {
     };
     this.width = 100;
     this.height = 100;
-    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_polvo_png__WEBPACK_IMPORTED_MODULE_33__["default"]);
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_polvo_png__WEBPACK_IMPORTED_MODULE_39__["default"]);
     this.frames = 0;
     this.distance = distance;
   }
@@ -10897,10 +11080,62 @@ var Polvo = /*#__PURE__*/function () {
   return Polvo;
 }();
 
-var FireFlower = /*#__PURE__*/function () {
-  function FireFlower(_ref6) {
+var Crab = /*#__PURE__*/function () {
+  function Crab(_ref6) {
     var position = _ref6.position,
-        velocity = _ref6.velocity;
+        velocity = _ref6.velocity,
+        _ref6$distance = _ref6.distance,
+        distance = _ref6$distance === void 0 ? {
+      limit: 50,
+      traveled: 0
+    } : _ref6$distance;
+
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Crab);
+
+    this.position = {
+      x: position.x,
+      y: position.y
+    };
+    this.velocity = {
+      x: velocity.x,
+      y: velocity.y
+    };
+    this.width = 80;
+    this.height = 80;
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_crab_png__WEBPACK_IMPORTED_MODULE_40__["default"]);
+    this.frames = 0;
+    this.distance = distance;
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Crab, [{
+    key: "draw",
+    value: function draw() {
+      c.drawImage(this.image, this.position.x, this.position.y);
+    }
+  }, {
+    key: "update",
+    value: function update() {
+      this.draw();
+      this.position.x += this.velocity.x;
+      this.position.y += this.velocity.y;
+      if (this.position.y + this.height + this.velocity.y <= canvas.height) this.velocity.y += gravity; // walk the crab back and forth
+
+      this.distance.traveled += Math.abs(this.velocity.x);
+
+      if (this.distance.traveled > this.distance.limit) {
+        this.distance.traveled = 0;
+        this.velocity.x = -this.velocity.x;
+      }
+    }
+  }]);
+
+  return Crab;
+}();
+
+var FireFlower = /*#__PURE__*/function () {
+  function FireFlower(_ref7) {
+    var position = _ref7.position,
+        velocity = _ref7.velocity;
 
     _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, FireFlower);
 
@@ -10912,10 +11147,9 @@ var FireFlower = /*#__PURE__*/function () {
       x: velocity.x,
       y: velocity.y
     };
-    this.width = 56;
-    this.height = 60;
-    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlower_png__WEBPACK_IMPORTED_MODULE_31__["default"]);
-    this.frames = 0;
+    this.width = 52;
+    this.height = 47;
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_sal_png__WEBPACK_IMPORTED_MODULE_35__["default"]);
   }
 
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(FireFlower, [{
@@ -10923,13 +11157,11 @@ var FireFlower = /*#__PURE__*/function () {
     value: function draw() {
       // c.fillStyle = 'red'
       // c.fillRect(this.position.x, this.position.y, this.width, this.height)
-      c.drawImage(this.image, 56 * this.frames, 0, 56, 60, this.position.x, this.position.y, this.width, this.height);
+      c.drawImage(this.image, this.position.x, this.position.y);
     }
   }, {
     key: "update",
     value: function update() {
-      this.frames++;
-      if (this.frames >= 75) this.frames = 0;
       this.draw();
       this.position.x += this.velocity.x;
       this.position.y += this.velocity.y;
@@ -10940,17 +11172,56 @@ var FireFlower = /*#__PURE__*/function () {
   return FireFlower;
 }();
 
+var Collectable = /*#__PURE__*/function () {
+  function Collectable(_ref8) {
+    var position = _ref8.position,
+        velocity = _ref8.velocity,
+        image = _ref8.image;
+
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Collectable);
+
+    this.position = {
+      x: position.x,
+      y: position.y
+    };
+    this.velocity = {
+      x: velocity.x,
+      y: velocity.y
+    };
+    this.width = image.width;
+    this.height = image.height;
+    this.image = image;
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Collectable, [{
+    key: "draw",
+    value: function draw() {
+      c.drawImage(this.image, this.position.x, this.position.y);
+    }
+  }, {
+    key: "update",
+    value: function update() {
+      this.draw();
+      this.position.x += this.velocity.x;
+      this.position.y += this.velocity.y;
+      if (this.position.y + this.height + this.velocity.y <= canvas.height) this.velocity.y += gravity;
+    }
+  }]);
+
+  return Collectable;
+}();
+
 var Particle = /*#__PURE__*/function () {
-  function Particle(_ref7) {
-    var position = _ref7.position,
-        velocity = _ref7.velocity,
-        radius = _ref7.radius,
-        _ref7$color = _ref7.color,
-        color = _ref7$color === void 0 ? '#654428' : _ref7$color,
-        _ref7$fireball = _ref7.fireball,
-        fireball = _ref7$fireball === void 0 ? false : _ref7$fireball,
-        _ref7$fades = _ref7.fades,
-        fades = _ref7$fades === void 0 ? false : _ref7$fades;
+  function Particle(_ref9) {
+    var position = _ref9.position,
+        velocity = _ref9.velocity,
+        radius = _ref9.radius,
+        _ref9$color = _ref9.color,
+        color = _ref9$color === void 0 ? '#654428' : _ref9$color,
+        _ref9$fireball = _ref9.fireball,
+        fireball = _ref9$fireball === void 0 ? false : _ref9$fireball,
+        _ref9$fades = _ref9.fades,
+        fades = _ref9$fades === void 0 ? false : _ref9$fades;
 
     _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Particle);
 
@@ -11009,12 +11280,18 @@ var lgPlatformImage;
 var tPlatformImage;
 var xtPlatformImage;
 var blockImage;
+var guardaSolVermelhoImage;
+var guardaSolAmareloImage;
+var boiasImage;
+var flamingoImage;
 var player = new Player();
 var platforms = [];
 var genericObjects = [];
-var genericObjectsMar = [];
+var frontObjects = [];
+var mares = [];
 var goombas = [];
 var polvos = [];
+var crabs = [];
 var particles = [];
 var fireFlowers = [];
 var lastKey;
@@ -11026,44 +11303,21 @@ var game;
 var currentLevel = 1;
 
 function selectLevel(currentLevel) {
-  if (!_audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].musicLevel1.playing()) _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].musicLevel1.play();
+  if (!_audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].musicLevel1.playing()) _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].musicLevel1.play();
 
   switch (currentLevel) {
     case 0:
-      menuInicial();
-      break;
-
-    case 1:
       init0();
       break;
 
-    case 2:
+    case 1:
       init();
       break;
 
-    case 3:
+    case 2:
       initLevel2();
       break;
   }
-}
-
-function menuInicial() {
-  return _menuInicial.apply(this, arguments);
-}
-
-function _menuInicial() {
-  _menuInicial = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function _callee() {
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function _callee$(_context) {
-      while (1) {
-        switch (_context.prev = _context.next) {
-          case 0:
-          case "end":
-            return _context.stop();
-        }
-      }
-    }, _callee);
-  }));
-  return _menuInicial.apply(this, arguments);
 }
 
 function init0() {
@@ -11071,11 +11325,11 @@ function init0() {
 }
 
 function _init() {
-  _init = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function _callee2() {
+  _init = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function _callee() {
     var polvoWidth, platformsMap, platformDistance;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function _callee2$(_context2) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function _callee$(_context) {
       while (1) {
-        switch (_context2.prev = _context2.next) {
+        switch (_context.prev = _context.next) {
           case 0:
             player = new Player();
             keys = {
@@ -11090,49 +11344,69 @@ function _init() {
             game = {
               disableUserInput: false
             };
-            _context2.next = 6;
+            _context.next = 6;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platform_png__WEBPACK_IMPORTED_MODULE_7__["default"]);
 
           case 6:
-            platformImage = _context2.sent;
-            _context2.next = 9;
+            platformImage = _context.sent;
+            _context.next = 9;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_11__["default"]);
 
           case 9:
-            platformSmallTallImage = _context2.sent;
-            _context2.next = 12;
+            platformSmallTallImage = _context.sent;
+            _context.next = 12;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
 
           case 12:
-            blockTriImage = _context2.sent;
-            _context2.next = 15;
+            blockTriImage = _context.sent;
+            _context.next = 15;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
 
           case 15:
-            blockImage = _context2.sent;
-            _context2.next = 18;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
+            blockImage = _context.sent;
+            _context.next = 18;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_19__["default"]);
 
           case 18:
-            lgPlatformImage = _context2.sent;
-            _context2.next = 21;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+            lgPlatformImage = _context.sent;
+            _context.next = 21;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_20__["default"]);
 
           case 21:
-            tPlatformImage = _context2.sent;
-            _context2.next = 24;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
+            tPlatformImage = _context.sent;
+            _context.next = 24;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
 
           case 24:
-            xtPlatformImage = _context2.sent;
-            _context2.next = 27;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_18__["default"]);
+            xtPlatformImage = _context.sent;
+            _context.next = 27;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_22__["default"]);
 
           case 27:
-            flagPoleImage = _context2.sent;
+            flagPoleImage = _context.sent;
+            _context.next = 30;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_flamengo_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
+
+          case 30:
+            flamingoImage = _context.sent;
+            _context.next = 33;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
+
+          case 33:
+            guardaSolAmareloImage = _context.sent;
+            _context.next = 36;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+
+          case 36:
+            guardaSolVermelhoImage = _context.sent;
+            _context.next = 39;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_boias_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
+
+          case 39:
+            boiasImage = _context.sent;
             fireFlowers = [new FireFlower({
               position: {
-                x: 3000,
+                x: 2670,
                 y: 100
               },
               velocity: {
@@ -11142,9 +11416,23 @@ function _init() {
             })];
             player = new Player();
             polvoWidth = 100;
+            crabs = [new Crab({
+              position: {
+                x: 4840,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              },
+              distance: {
+                limit: 0,
+                traveled: 0
+              }
+            })];
             polvos = [new Polvo({
               position: {
-                x: 2400,
+                x: 2100,
                 y: 100
               },
               velocity: {
@@ -11234,6 +11522,35 @@ function _init() {
                 traveled: 0
               }
             })];
+            frontObjects = [new FrontObject({
+              x: 400,
+              y: 340,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_mover_png__WEBPACK_IMPORTED_MODULE_43__["default"])
+            }), new FrontObject({
+              x: 1200,
+              y: 340,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_saltar_png__WEBPACK_IMPORTED_MODULE_45__["default"])
+            }), new FrontObject({
+              x: 1700,
+              y: 340,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_inimigos_png__WEBPACK_IMPORTED_MODULE_46__["default"])
+            }), new FrontObject({
+              x: 2300,
+              y: 340,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_powerup_png__WEBPACK_IMPORTED_MODULE_44__["default"])
+            }), new FrontObject({
+              x: 2900,
+              y: 340,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_tiros_png__WEBPACK_IMPORTED_MODULE_47__["default"])
+            }), new FrontObject({
+              x: 3800,
+              y: 340,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_mar_png__WEBPACK_IMPORTED_MODULE_42__["default"])
+            }), new FrontObject({
+              x: 5400,
+              y: 340,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_farol_png__WEBPACK_IMPORTED_MODULE_41__["default"])
+            })];
             particles = [];
             platforms = [new Platform({
               x: 1500,
@@ -11244,6 +11561,16 @@ function _init() {
               x: 1580,
               y: 275,
               image: blockImage,
+              block: true
+            }), new Platform({
+              x: 2600,
+              y: 330,
+              image: guardaSolAmareloImage,
+              block: true
+            }), new Platform({
+              x: 4000,
+              y: 350,
+              image: boiasImage,
               block: true
             }), new Platform({
               x: 4400,
@@ -11282,13 +11609,13 @@ function _init() {
               y: -1,
               image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_ceu_png__WEBPACK_IMPORTED_MODULE_9__["default"])
             }), new GenericObject({
-              x: 3000,
-              y: 500,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_dunas_png__WEBPACK_IMPORTED_MODULE_10__["default"])
+              x: 3100,
+              y: 200,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_casas_png__WEBPACK_IMPORTED_MODULE_8__["default"])
             })];
-            genericObjectsMar = [new GenericObjectMar({
+            mares = [new Mar({
               x: -1,
-              y: 570,
+              y: 560,
               image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_mar_png__WEBPACK_IMPORTED_MODULE_6__["default"])
             })];
             scrollOffset = 0;
@@ -11334,12 +11661,12 @@ function _init() {
               }
             });
 
-          case 41:
+          case 55:
           case "end":
-            return _context2.stop();
+            return _context.stop();
         }
       }
-    }, _callee2);
+    }, _callee);
   }));
   return _init.apply(this, arguments);
 }
@@ -11349,11 +11676,11 @@ function init() {
 }
 
 function _init2() {
-  _init2 = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function _callee3() {
-    var polvoWidth, goombaWidth, platformsMap, platformDistance;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function _callee3$(_context3) {
+  _init2 = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function _callee2() {
+    var polvoWidth, platformsMap, platformDistance;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function _callee2$(_context2) {
       while (1) {
-        switch (_context3.prev = _context3.next) {
+        switch (_context2.prev = _context2.next) {
           case 0:
             player = new Player();
             keys = {
@@ -11368,49 +11695,69 @@ function _init2() {
             game = {
               disableUserInput: false
             };
-            _context3.next = 6;
+            _context2.next = 6;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platform_png__WEBPACK_IMPORTED_MODULE_7__["default"]);
 
           case 6:
-            platformImage = _context3.sent;
-            _context3.next = 9;
+            platformImage = _context2.sent;
+            _context2.next = 9;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_11__["default"]);
 
           case 9:
-            platformSmallTallImage = _context3.sent;
-            _context3.next = 12;
+            platformSmallTallImage = _context2.sent;
+            _context2.next = 12;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
 
           case 12:
-            blockTriImage = _context3.sent;
-            _context3.next = 15;
+            blockTriImage = _context2.sent;
+            _context2.next = 15;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
 
           case 15:
-            blockImage = _context3.sent;
-            _context3.next = 18;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
+            blockImage = _context2.sent;
+            _context2.next = 18;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_19__["default"]);
 
           case 18:
-            lgPlatformImage = _context3.sent;
-            _context3.next = 21;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+            lgPlatformImage = _context2.sent;
+            _context2.next = 21;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_20__["default"]);
 
           case 21:
-            tPlatformImage = _context3.sent;
-            _context3.next = 24;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
+            tPlatformImage = _context2.sent;
+            _context2.next = 24;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
 
           case 24:
-            xtPlatformImage = _context3.sent;
-            _context3.next = 27;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_18__["default"]);
+            xtPlatformImage = _context2.sent;
+            _context2.next = 27;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_22__["default"]);
 
           case 27:
-            flagPoleImage = _context3.sent;
+            flagPoleImage = _context2.sent;
+            _context2.next = 30;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_flamengo_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
+
+          case 30:
+            flamingoImage = _context2.sent;
+            _context2.next = 33;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
+
+          case 33:
+            guardaSolAmareloImage = _context2.sent;
+            _context2.next = 36;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+
+          case 36:
+            guardaSolVermelhoImage = _context2.sent;
+            _context2.next = 39;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_boias_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
+
+          case 39:
+            boiasImage = _context2.sent;
             fireFlowers = [new FireFlower({
               position: {
-                x: 400,
+                x: 1991 + lgPlatformImage.width - tPlatformImage.width + 100,
                 y: 100
               },
               velocity: {
@@ -11426,104 +11773,129 @@ function _init2() {
                 y: 100
               },
               velocity: {
-                x: -0.4,
+                x: -1,
                 y: 0
               },
               distance: {
-                limit: 100,
+                limit: 200,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 3600,
+                y: 100
+              },
+              velocity: {
+                x: -0.8,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 3700,
+                y: 100
+              },
+              velocity: {
+                x: -0.8,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 3800,
+                y: 100
+              },
+              velocity: {
+                x: -0.8,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 3900,
+                y: 100
+              },
+              velocity: {
+                x: -0.8,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 4000,
+                y: 100
+              },
+              velocity: {
+                x: -0.8,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 6000,
+                y: 100
+              },
+              velocity: {
+                x: -0.8,
+                y: 0
+              },
+              distance: {
+                limit: 150,
                 traveled: 0
               }
             })];
-            goombaWidth = 43.33;
-            goombas = [new Goomba({
+            crabs = [new Crab({
               position: {
-                x: 908 + lgPlatformImage.width - goombaWidth,
+                x: 900,
                 y: 100
               },
               velocity: {
-                x: -0.3,
-                y: 0
-              },
-              distance: {
-                limit: 400,
-                traveled: 0
-              }
-            }), new Goomba({
-              position: {
-                x: 3249 + lgPlatformImage.width - goombaWidth,
-                y: 100
-              },
-              velocity: {
-                x: -0.3,
-                y: 0
-              },
-              distance: {
-                limit: 400,
-                traveled: 0
-              }
-            }), new Goomba({
-              position: {
-                x: 3249 + lgPlatformImage.width - goombaWidth - goombaWidth,
-                y: 100
-              },
-              velocity: {
-                x: -0.3,
-                y: 0
-              },
-              distance: {
-                limit: 400,
-                traveled: 0
-              }
-            }), new Goomba({
-              position: {
-                x: 3249 + lgPlatformImage.width - goombaWidth - goombaWidth - goombaWidth,
-                y: 100
-              },
-              velocity: {
-                x: -0.3,
-                y: 0
-              },
-              distance: {
-                limit: 400,
-                traveled: 0
-              }
-            }), new Goomba({
-              position: {
-                x: 3249 + lgPlatformImage.width - goombaWidth - goombaWidth - goombaWidth - goombaWidth,
-                y: 100
-              },
-              velocity: {
-                x: -0.3,
-                y: 0
-              },
-              distance: {
-                limit: 400,
-                traveled: 0
-              }
-            }), new Goomba({
-              position: {
-                x: 5135 + xtPlatformImage.width / 2 + goombaWidth,
-                y: 100
-              },
-              velocity: {
-                x: -0.3,
+                x: -0.5,
                 y: 0
               },
               distance: {
                 limit: 100,
                 traveled: 0
               }
-            }), new Goomba({
+            }), new Crab({
               position: {
-                x: 6968,
-                y: 0
+                x: 1991 + lgPlatformImage.width - tPlatformImage.width + 100,
+                y: 400
               },
               velocity: {
-                x: -0.3,
+                x: -0.8,
                 y: 0
               },
               distance: {
-                limit: 100,
+                limit: 150,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 5050,
+                y: 100
+              },
+              velocity: {
+                x: -0.8,
+                y: 0
+              },
+              distance: {
+                limit: 150,
                 traveled: 0
               }
             })];
@@ -11534,34 +11906,33 @@ function _init2() {
               image: blockTriImage,
               block: true
             }), new Platform({
-              x: 908 + 100 + blockImage.width,
-              y: 100,
-              image: blockImage,
-              block: true
-            }), new Platform({
               x: 1991 + lgPlatformImage.width - tPlatformImage.width,
-              y: canvas.height - lgPlatformImage.height - tPlatformImage.height - 300,
+              y: canvas.height - lgPlatformImage.height - tPlatformImage.height - 250,
               image: tPlatformImage,
               block: false
             }), new Platform({
               x: 1991 + lgPlatformImage.width - tPlatformImage.width - 100,
-              y: canvas.height - lgPlatformImage.height - tPlatformImage.height + blockImage.height,
+              y: canvas.height - lgPlatformImage.height - tPlatformImage.height - 75,
               image: blockImage,
               block: true
             }), new Platform({
-              x: 5712 + xtPlatformImage.width + 175,
-              y: canvas.height - xtPlatformImage.height,
+              x: 1991 + lgPlatformImage.width - tPlatformImage.width + 300,
+              y: canvas.height - lgPlatformImage.height - tPlatformImage.height + 50,
               image: blockImage,
-              block: true,
-              text: 5712 + xtPlatformImage.width + 175
+              block: true
             }), new Platform({
-              x: 6116 + 175,
+              x: 5712 + xtPlatformImage.width + 500,
               y: canvas.height - xtPlatformImage.height,
               image: blockImage,
               block: true
             }), new Platform({
-              x: 6116 + 175 * 2,
+              x: 6116 + 175 + 500,
               y: canvas.height - xtPlatformImage.height,
+              image: blockImage,
+              block: true
+            }), new Platform({
+              x: 6116 + 175 * 2 + 300,
+              y: canvas.height - xtPlatformImage.height - 200,
               image: blockImage,
               block: true
             }), new Platform({
@@ -11570,26 +11941,23 @@ function _init2() {
               image: blockImage,
               block: true
             }), new Platform({
-              x: 6116 + 175 * 4,
-              y: canvas.height - xtPlatformImage.height - 200,
-              image: blockTriImage,
+              x: 7200,
+              y: 500,
+              image: blockImage,
               block: true
             }), new Platform({
-              x: 6116 + 175 * 4 + blockTriImage.width,
-              y: canvas.height - xtPlatformImage.height - 200,
-              image: blockTriImage,
-              block: true,
-              text: 6116 + 175 * 4 + blockTriImage.width
-            }), new Platform({
-              x: 6968 + 300,
+              x: 8000 + 300,
               y: canvas.height - lgPlatformImage.height - 100,
               image: lgPlatformImage,
-              block: true,
-              text: 6968 + 300
+              block: true
+            }), new Platform({
+              x: 8000 + 300,
+              y: canvas.height - lgPlatformImage.height - 100,
+              image: lgPlatformImage,
+              block: true
             })];
             flagPole = new GenericObject({
-              x: 6968 + 600,
-              // x: 500,
+              x: 10000 + 600,
               y: canvas.height - lgPlatformImage.height - flagPoleImage.height - 100,
               image: flagPoleImage
             });
@@ -11602,17 +11970,17 @@ function _init2() {
               y: 100,
               image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_casas_png__WEBPACK_IMPORTED_MODULE_8__["default"])
             }), new GenericObject({
-              x: 3000,
-              y: 500,
+              x: 3400,
+              y: 330,
               image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_dunas_png__WEBPACK_IMPORTED_MODULE_10__["default"])
             })];
-            genericObjectsMar = [new GenericObjectMar({
+            mares = [new Mar({
               x: 0,
-              y: 580,
+              y: 560,
               image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_mar_png__WEBPACK_IMPORTED_MODULE_6__["default"])
             })];
             scrollOffset = 0;
-            platformsMap = ['lg', 'lg', 'gap', 'lg', 'gap', 'gap', 'lg', 'gap', 't', 'gap', 'xt', 'gap', 'xt', 'gap', 'gap', 'xt'];
+            platformsMap = ['lg', 'lg', 'gap', 'lg', 'gap', 'gap', 'gap', 'lg', 'gap', 't', 'gap', 'xt', 'gap', 'xt', 'gap', 'gap', 'xt', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'lg'];
             platformDistance = 0;
             platformsMap.forEach(function (symbol) {
               switch (symbol) {
@@ -11654,12 +12022,12 @@ function _init2() {
               }
             });
 
-          case 43:
+          case 54:
           case "end":
-            return _context3.stop();
+            return _context2.stop();
         }
       }
-    }, _callee3);
+    }, _callee2);
   }));
   return _init2.apply(this, arguments);
 }
@@ -11669,11 +12037,11 @@ function initLevel2() {
 }
 
 function _initLevel() {
-  _initLevel = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function _callee4() {
-    var mountains, mdPlatformImage, goombaWidth, platformsMap, platformDistance;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function _callee4$(_context4) {
+  _initLevel = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function _callee3() {
+    var mountains, mdPlatformImage, platformsMap, platformDistance;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function _callee3$(_context3) {
       while (1) {
-        switch (_context4.prev = _context4.next) {
+        switch (_context3.prev = _context3.next) {
           case 0:
             player = new Player();
             keys = {
@@ -11688,46 +12056,46 @@ function _initLevel() {
             game = {
               disableUserInput: false
             };
-            _context4.next = 6;
+            _context3.next = 6;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
 
           case 6:
-            blockTriImage = _context4.sent;
-            _context4.next = 9;
+            blockTriImage = _context3.sent;
+            _context3.next = 9;
             return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
 
           case 9:
-            blockImage = _context4.sent;
-            _context4.next = 12;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_35__["images"].levels[2].lgPlatform);
+            blockImage = _context3.sent;
+            _context3.next = 12;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].levels[2].lgPlatform);
 
           case 12:
-            lgPlatformImage = _context4.sent;
-            _context4.next = 15;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+            lgPlatformImage = _context3.sent;
+            _context3.next = 15;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_20__["default"]);
 
           case 15:
-            tPlatformImage = _context4.sent;
-            _context4.next = 18;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
+            tPlatformImage = _context3.sent;
+            _context3.next = 18;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
 
           case 18:
-            xtPlatformImage = _context4.sent;
-            _context4.next = 21;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_18__["default"]);
+            xtPlatformImage = _context3.sent;
+            _context3.next = 21;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_22__["default"]);
 
           case 21:
-            flagPoleImage = _context4.sent;
-            _context4.next = 24;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_35__["images"].levels[2].mountains);
+            flagPoleImage = _context3.sent;
+            _context3.next = 24;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].levels[2].mountains);
 
           case 24:
-            mountains = _context4.sent;
-            _context4.next = 27;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_35__["images"].levels[2].mdPlatform);
+            mountains = _context3.sent;
+            _context3.next = 27;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].levels[2].mdPlatform);
 
           case 27:
-            mdPlatformImage = _context4.sent;
+            mdPlatformImage = _context3.sent;
             flagPole = new GenericObject({
               x: 7680,
               // x: 500,
@@ -11745,62 +12113,6 @@ function _initLevel() {
               }
             })];
             player = new Player();
-            goombaWidth = 43.33;
-            goombas = [new Goomba({
-              // single block goomba
-              position: {
-                x: 903 + mdPlatformImage.width - goombaWidth,
-                y: 100
-              },
-              velocity: {
-                x: -2,
-                y: 0
-              },
-              distance: {
-                limit: 700,
-                traveled: 0
-              }
-            }), new Goomba({
-              // single block goomba
-              position: {
-                x: 1878 + lgPlatformImage.width + 155 + 200 + 200 + 200 + blockImage.width / 2 - goombaWidth / 2,
-                y: 100
-              },
-              velocity: {
-                x: 0,
-                y: 0
-              },
-              distance: {
-                limit: 0,
-                traveled: 0
-              }
-            }), new Goomba({
-              position: {
-                x: 3831 + lgPlatformImage.width - goombaWidth,
-                y: 100
-              },
-              velocity: {
-                x: -1,
-                y: 0
-              },
-              distance: {
-                limit: lgPlatformImage.width - goombaWidth,
-                traveled: 0
-              }
-            }), new Goomba({
-              position: {
-                x: 4734,
-                y: 100
-              },
-              velocity: {
-                x: 1,
-                y: 0
-              },
-              distance: {
-                limit: lgPlatformImage.width - goombaWidth,
-                traveled: 0
-              }
-            })];
             particles = [];
             platforms = [new Platform({
               x: 903 + mdPlatformImage.width + 115,
@@ -11860,7 +12172,7 @@ function _initLevel() {
             genericObjects = [new GenericObject({
               x: -1,
               y: -1,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_35__["images"].levels[2].background)
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].levels[2].background)
             }), new GenericObject({
               x: -1,
               y: canvas.height - mountains.height,
@@ -11920,12 +12232,12 @@ function _initLevel() {
               }
             });
 
-          case 40:
+          case 38:
           case "end":
-            return _context4.stop();
+            return _context3.stop();
         }
       }
-    }, _callee4);
+    }, _callee3);
   }));
   return _initLevel.apply(this, arguments);
 }
@@ -11938,6 +12250,10 @@ function animate() {
     genericObject.update();
     genericObject.velocity.x = 0;
   });
+  frontObjects.forEach(function (frontObject) {
+    frontObject.update();
+    frontObject.velocity.x = 0;
+  });
   particles.forEach(function (particle, i) {
     particle.update();
     if (particle.fireball && (particle.position.x - particle.radius >= canvas.width || particle.position.x + particle.radius <= 0)) setTimeout(function () {
@@ -11948,9 +12264,9 @@ function animate() {
     platform.update();
     platform.velocity.x = 0;
   });
-  genericObjectsMar.forEach(function (genericObjectMar) {
-    genericObjectMar.update();
-    genericObjectMar.velocity.x = 0;
+  mares.forEach(function (Mar) {
+    Mar.update();
+    Mar.velocity.x = 0;
   });
 
   if (flagPole) {
@@ -11963,8 +12279,8 @@ function animate() {
       object1: player,
       object2: flagPole
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].completeLevel.play();
-      _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].musicLevel1.stop();
+      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].completeLevel.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].musicLevel1.stop();
       game.disableUserInput = true;
       player.velocity.x = 0;
       player.velocity.y = 0;
@@ -11973,7 +12289,7 @@ function animate() {
       if (player.powerUps.fireFlower) player.currentSprite = player.sprites.stand.fireFlower.right; // flagpole slide
 
       setTimeout(function () {
-        _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].descend.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].descend.play();
       }, 200);
       gsap__WEBPACK_IMPORTED_MODULE_4__["default"].to(player.position, {
         y: canvas.height - lgPlatformImage.height - player.height - 100,
@@ -12011,8 +12327,8 @@ function animate() {
           }));
         }
 
-        _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].fireworkBurst.play();
-        _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].fireworkWhistle.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].fireworkBurst.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].fireworkWhistle.play();
         if (increment === 3) clearInterval(intervalId);
         increment++;
       }, 1000); // switch to the next level
@@ -12031,7 +12347,7 @@ function animate() {
       object1: player,
       object2: fireFlower
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].obtainPowerUp.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].obtainPowerUp.play();
       player.powerUps.fireFlower = true;
       setTimeout(function () {
         fireFlowers.splice(i, 1);
@@ -12068,7 +12384,7 @@ function animate() {
       object1: player,
       object2: goomba
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].goombaSquash.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].goombaSquash.play();
 
       for (var i = 0; i < 50; i++) {
         particles.push(new Particle({
@@ -12094,12 +12410,78 @@ function animate() {
       if (player.powerUps.fireFlower) {
         player.invincible = true;
         player.powerUps.fireFlower = false;
-        _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].losePowerUp.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].losePowerUp.play();
         setTimeout(function () {
           player.invincible = false;
         }, 1000);
       } else if (!player.invincible) {
-        _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].die.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].die.play();
+        selectLevel(currentLevel);
+      }
+    }
+  });
+  crabs.forEach(function (crab, index) {
+    crab.update(); // remove crab on fireball hit
+
+    particles.forEach(function (particle, particleIndex) {
+      if (particle.fireball && particle.position.x + particle.radius >= crab.position.x && particle.position.y + particle.radius >= crab.position.y && particle.position.x - particle.radius <= crab.position.x + crab.width && particle.position.y - particle.radius <= crab.position.y + crab.height) {
+        for (var i = 0; i < 50; i++) {
+          particles.push(new Particle({
+            position: {
+              x: crab.position.x + crab.width / 2,
+              y: crab.position.y + crab.height / 2
+            },
+            velocity: {
+              x: (Math.random() - 0.5) * 7,
+              y: (Math.random() - 0.5) * 15
+            },
+            radius: Math.random() * 3
+          }));
+        }
+
+        setTimeout(function () {
+          crabs.splice(index, 1);
+          particles.splice(particleIndex, 1);
+        }, 0);
+      }
+    }); // crab stomp squish / squash
+
+    if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["collisionTop"])({
+      object1: player,
+      object2: crab
+    })) {
+      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].goombaSquash.play();
+
+      for (var i = 0; i < 50; i++) {
+        particles.push(new Particle({
+          position: {
+            x: crab.position.x + crab.width / 2,
+            y: crab.position.y + crab.height / 2
+          },
+          velocity: {
+            x: (Math.random() - 0.5) * 7,
+            y: (Math.random() - 0.5) * 15
+          },
+          radius: Math.random() * 3
+        }));
+      }
+
+      player.velocity.y -= 40;
+      setTimeout(function () {
+        crabs.splice(index, 1);
+      }, 0);
+    } else if (player.position.x + player.width >= crab.position.x && player.position.y + player.height >= crab.position.y && player.position.x <= crab.position.x + crab.width) {
+      // player hits crab
+      // lose fireflower / lose powerup
+      if (player.powerUps.fireFlower) {
+        player.invincible = true;
+        player.powerUps.fireFlower = false;
+        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].losePowerUp.play();
+        setTimeout(function () {
+          player.invincible = false;
+        }, 1000);
+      } else if (!player.invincible) {
+        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].die.play();
         selectLevel(currentLevel);
       }
     }
@@ -12134,7 +12516,7 @@ function animate() {
       object1: player,
       object2: polvo
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].goombaSquash.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].goombaSquash.play();
 
       for (var i = 0; i < 50; i++) {
         particles.push(new Particle({
@@ -12155,17 +12537,17 @@ function animate() {
         polvos.splice(index, 1);
       }, 0);
     } else if (player.position.x + player.width >= polvo.position.x && player.position.y + player.height >= polvo.position.y && player.position.x <= polvo.position.x + polvo.width) {
-      // player hits polvo
+      // player hits enemy
       // lose fireflower / lose powerup
       if (player.powerUps.fireFlower) {
         player.invincible = true;
         player.powerUps.fireFlower = false;
-        _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].losePowerUp.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].losePowerUp.play();
         setTimeout(function () {
           player.invincible = false;
         }, 1000);
       } else if (!player.invincible) {
-        _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].die.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].die.play();
         selectLevel(currentLevel);
       }
     }
@@ -12203,13 +12585,16 @@ function animate() {
         scrollOffset += player.speed;
         flagPole.velocity.x = -player.speed;
         genericObjects.forEach(function (genericObject) {
-          genericObject.velocity.x = -player.speed * 0.2;
+          genericObject.velocity.x = -player.speed * 0.4;
         });
-        genericObjectsMar.forEach(function (genericObjectMar) {
-          genericObjectMar.velocity.x = -player.speed * 0.5;
+        mares.forEach(function (Mar) {
+          Mar.velocity.x = -player.speed * 0.7;
         });
-        goombas.forEach(function (goomba) {
-          goomba.position.x -= player.speed;
+        frontObjects.forEach(function (frontObject) {
+          frontObject.velocity.x = -player.speed;
+        });
+        crabs.forEach(function (crab) {
+          crab.position.x -= player.speed;
         });
         polvos.forEach(function (polvo) {
           polvo.position.x -= player.speed;
@@ -12244,11 +12629,14 @@ function animate() {
         genericObjects.forEach(function (genericObject) {
           genericObject.velocity.x = player.speed * 0.2;
         });
-        genericObjectsMar.forEach(function (genericObjectMar) {
-          genericObjectMar.velocity.x = player.speed * 0.5;
+        mares.forEach(function (Mar) {
+          Mar.velocity.x = player.speed * 0.5;
         });
-        goombas.forEach(function (goomba) {
-          goomba.position.x += player.speed;
+        frontObjects.forEach(function (frontObject) {
+          frontObject.velocity.x = player.speed;
+        });
+        crabs.forEach(function (crab) {
+          crab.position.x += player.speed;
         });
         polvos.forEach(function (polvo) {
           polvo.position.x += player.speed;
@@ -12299,11 +12687,11 @@ function animate() {
 
       if (particle.ttl < 0) particles.splice(index, 1);
     });
-    goombas.forEach(function (goomba) {
+    crabs.forEach(function (crab) {
       if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["isOnTopOfPlatform"])({
-        object: goomba,
+        object: crab,
         platform: platform
-      })) goomba.velocity.y = 0;
+      })) crab.velocity.y = 0;
     });
     polvos.forEach(function (polvo) {
       if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["isOnTopOfPlatform"])({
@@ -12320,7 +12708,7 @@ function animate() {
   }); // lose condition
 
   if (player.position.y > canvas.height) {
-    _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].die.play();
+    _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].die.play();
     selectLevel(currentLevel);
   } // sprite switching
 
@@ -12363,8 +12751,8 @@ selectLevel(1); // init()
 // initLevel2()
 
 animate();
-addEventListener('keydown', function (_ref8) {
-  var keyCode = _ref8.keyCode;
+addEventListener('keydown', function (_ref10) {
+  var keyCode = _ref10.keyCode;
   if (game.disableUserInput) return;
 
   switch (keyCode) {
@@ -12403,7 +12791,7 @@ addEventListener('keydown', function (_ref8) {
     case 87:
       console.log('up');
       player.velocity.y -= 25;
-      _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].jump.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].jump.play();
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.right;else player.currentSprite = player.sprites.jump.left;
       if (!player.powerUps.fireFlower) break;
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.fireFlower.right;else player.currentSprite = player.sprites.jump.fireFlower.left;
@@ -12412,7 +12800,7 @@ addEventListener('keydown', function (_ref8) {
     case 38:
       console.log('up');
       player.velocity.y -= 25;
-      _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].jump.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].jump.play();
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.right;else player.currentSprite = player.sprites.jump.left;
       if (!player.powerUps.fireFlower) break;
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.fireFlower.right;else player.currentSprite = player.sprites.jump.fireFlower.left;
@@ -12425,7 +12813,7 @@ addEventListener('keydown', function (_ref8) {
       setTimeout(function () {
         player.shooting = false;
       }, 100);
-      _audio_js__WEBPACK_IMPORTED_MODULE_34__["audio"].fireFlowerShot.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].fireFlowerShot.play();
       var velocity = 15;
       if (lastKey === 'left') velocity = -velocity;
       particles.push(new Particle({
@@ -12444,8 +12832,8 @@ addEventListener('keydown', function (_ref8) {
       break;
   }
 });
-addEventListener('keyup', function (_ref9) {
-  var keyCode = _ref9.keyCode;
+addEventListener('keyup', function (_ref11) {
+  var keyCode = _ref11.keyCode;
   if (game.disableUserInput) return;
 
   switch (keyCode) {
