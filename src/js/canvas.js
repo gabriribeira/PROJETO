@@ -15,6 +15,7 @@ import platform from '../img/platform.png'
 import casas from '../img/casas.png'
 import background from '../img/ceu.png'
 import dunas from '../img/dunas.png'
+import farol from '../img/farol.png'
 
 import platformSmallTall from '../img/platformSmallTall.png'
 import block from '../img/block.png'
@@ -47,9 +48,9 @@ import sal from '../img/sal.png'
 import moeda from '../img/moeda.png'
 import tijolo from '../img/tijolo.png'
 
-import spriteGoomba from '../img/spriteGoomba.png'
 import polvoInimigo from '../img/polvo.png'
 import crabInimigo from '../img/crab.png'
+import gaivotaInimigo from '../img/gaivota.png'
 
 import placaFarol from '../img/placa_farol.png'
 import placaMar from '../img/placa_mar.png'
@@ -394,6 +395,56 @@ class Crab {
   }
 }
 
+class Gaivota {
+  constructor({
+                position,
+                velocity,
+                distance = {
+                  limit: 50,
+                  traveled: 0
+                }
+              }) {
+    this.position = {
+      x: position.x,
+      y: position.y
+    }
+
+    this.velocity = {
+      x: velocity.x,
+      y: velocity.y
+    }
+
+    this.width = 100
+    this.height = 100
+
+    this.image = createImage(gaivotaInimigo)
+    this.frames = 0
+
+    this.distance = distance
+  }
+
+  draw() {
+    c.drawImage(this.image, this.position.x, this.position.y)
+  }
+
+  update() {
+    this.draw()
+    this.position.x += this.velocity.x
+    this.position.y += this.velocity.y
+
+    if (this.position.y + this.height + this.velocity.y <= canvas.height)
+      this.velocity.y += gravity
+
+    // walk the gaivota back and forth
+    this.distance.traveled += Math.abs(this.velocity.x)
+
+    if (this.distance.traveled > this.distance.limit) {
+      this.distance.traveled = 0
+      this.velocity.x = -this.velocity.x
+    }
+  }
+}
+
 class FireFlower {
   constructor({ position, velocity }) {
     this.position = {
@@ -413,9 +464,6 @@ class FireFlower {
   }
 
   draw() {
-    // c.fillStyle = 'red'
-    // c.fillRect(this.position.x, this.position.y, this.width, this.height)
-
     c.drawImage(this.image, this.position.x, this.position.y)
   }
 
@@ -429,8 +477,8 @@ class FireFlower {
   }
 }
 
-class Collectable {
-  constructor({ position, velocity, image }) {
+class Moeda {
+  constructor({ position, velocity }) {
     this.position = {
       x: position.x,
       y: position.y
@@ -441,10 +489,42 @@ class Collectable {
       y: velocity.y
     }
 
-    this.width = image.width
-    this.height = image.height
+    this.width = 39,
+    this.height = 39
 
-    this.image = image
+    this.image = createImage(moeda)
+  }
+
+  draw() {
+    c.drawImage(this.image, this.position.x, this.position.y)
+  }
+
+  update() {
+    this.draw()
+    this.position.x += this.velocity.x
+    this.position.y += this.velocity.y
+
+    if (this.position.y + this.height + this.velocity.y <= canvas.height)
+      this.velocity.y += gravity
+  }
+}
+
+class Tijolo {
+  constructor({ position, velocity }) {
+    this.position = {
+      x: position.x,
+      y: position.y
+    }
+
+    this.velocity = {
+      x: velocity.x,
+      y: velocity.y
+    }
+
+    this.width = 45,
+        this.height = 39
+
+    this.image = createImage(tijolo)
   }
 
   draw() {
@@ -527,17 +607,21 @@ let guardaSolVermelhoImage
 let guardaSolAmareloImage
 let boiasImage
 let flamingoImage
-
+let farolImage
+let moedaImage
+let tijoloImage
 let player = new Player()
 let platforms = []
 let genericObjects = []
 let frontObjects = []
 let mares = []
-let goombas = []
 let polvos = []
+let gaivotas = []
 let crabs = []
 let particles = []
 let fireFlowers = []
+let moedas = []
+let tijolos = []
 
 let lastKey
 let keys
@@ -547,7 +631,7 @@ let flagPole
 let flagPoleImage
 let game
 
-let currentLevel = 1
+let currentLevel = 0
 
 
 
@@ -611,6 +695,8 @@ async function init0() {
   guardaSolAmareloImage = await createImageAsync(guardaSolAmarelo)
   guardaSolVermelhoImage = await createImageAsync(guardaSolVermelho)
   boiasImage = await createImageAsync(boias)
+  moedaImage = await createImageAsync(moeda)
+  tijoloImage = await createImageAsync(tijolo)
 
   fireFlowers = [
     new FireFlower({
@@ -1020,6 +1106,8 @@ async function init() {
   guardaSolAmareloImage = await createImageAsync(guardaSolAmarelo)
   guardaSolVermelhoImage = await createImageAsync(guardaSolVermelho)
   boiasImage = await createImageAsync(boias)
+  moedaImage = await createImageAsync(moeda)
+  tijoloImage = await createImageAsync(tijolo)
 
   fireFlowers = [
     new FireFlower({
@@ -1032,6 +1120,193 @@ async function init() {
         y: 0
       }
     })
+  ]
+
+  tijolos = [
+      new Tijolo({
+        position:{
+          x: 11400,
+          y: 50
+        },
+        velocity:{
+          x: 0,
+          y: 0
+        }
+      })
+  ]
+
+  moedas = [
+    new Moeda({
+      position:{
+        x: 1100,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 1150,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 1200,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 2500,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 4300,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 5000,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 6000,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 6116 + 175 + 500,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 6116 + 175 * 2 + 500,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 7500,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 8700,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 9300,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 9800,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 10200,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 10600,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 11000,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position:{
+        x: 11400,
+        y: 100
+      },
+      velocity:{
+        x: 0,
+        y: 0
+      }
+    }),
+
   ]
 
   player = new Player()
@@ -1136,6 +1411,48 @@ async function init() {
         traveled: 0
       }
     }),
+    new Polvo({
+      position: {
+        x: 8000 + 600 + xtPlatformImage.width + 450,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 100,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x: 10100 + 180,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x: 10900 + 180,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
   ]
 
   crabs = [
@@ -1180,15 +1497,83 @@ async function init() {
         limit: 150,
         traveled: 0
       }
-    })
+    }),
+    new Crab({
+      position: {
+        x: 8750,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+    new Crab({
+      position: {
+        x: 7200,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y:0
+      },
+      distance: {
+        limit: 0,
+        traveled: 0
+      }
+    }),
+    new Crab({
+      position: {
+        x: 9700 + 180,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+    new Crab({
+      position: {
+        x: 10500 + 180,
+        y: 100
+      },
+      velocity: {
+        x: -1,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
   ]
 
   particles = []
   platforms = [
     new Platform({
-      x: 908 + 100,
+      x: 500,
+      y: 330,
+      image: guardaSolAmareloImage,
+      block: true
+    }),
+    new Platform({
+      x: 908 + 200,
       y: 300,
       image: blockTriImage,
+      block: true
+    }),
+    new Platform({
+      x: 1600,
+      y: 430,
+      image: blockImage,
       block: true
     }),
     new Platform({
@@ -1198,7 +1583,16 @@ async function init() {
       block: false
     }),
     new Platform({
-      x: 1991 + lgPlatformImage.width - tPlatformImage.width - 100,
+      x: 2100,
+      y:
+          canvas.height -
+          lgPlatformImage.height -
+          tPlatformImage.height - 75,
+      image: flamingoImage,
+      block: true
+    }),
+    new Platform({
+      x: 1791 + lgPlatformImage.width - tPlatformImage.width,
       y:
           canvas.height -
           lgPlatformImage.height -
@@ -1207,12 +1601,9 @@ async function init() {
       block: true
     }),
     new Platform({
-      x: 1991 + lgPlatformImage.width - tPlatformImage.width + 300,
-      y:
-          canvas.height -
-          lgPlatformImage.height -
-          tPlatformImage.height + 50,
-      image: blockImage,
+      x: 4100,
+      y:330,
+      image: guardaSolVermelhoImage,
       block: true
     }),
     new Platform({
@@ -1246,22 +1637,69 @@ async function init() {
       block: true
     }),
     new Platform({
-      x: 8000 + 300,
-      y: canvas.height - lgPlatformImage.height - 100,
-      image: lgPlatformImage,
+      x: 8000 + 600,
+      y: 200,
+      image: xtPlatformImage,
       block: true,
     }),
     new Platform({
-      x: 8000 + 300,
-      y: canvas.height - lgPlatformImage.height - 100,
-      image: lgPlatformImage,
+      x: 8000 + 600 + xtPlatformImage.width + 350,
+      y: 200,
+      image: xtPlatformImage,
       block: true,
     }),
-
+    new Platform({
+      x: 7900,
+      y: 380,
+      image: blockImage,
+      block: true,
+    }),
+    new Platform({
+      x: 8170,
+      y: 370,
+      image: flamingoImage,
+      block: true,
+    }),
+    new Platform({
+      x: 8270,
+      y: 370,
+      image: boiasImage,
+      block: true,
+    }),
+    new Platform({
+      x: 9700,
+      y: 500,
+      image: tPlatformImage,
+      block: true,
+    }),
+    new Platform({
+      x: 10100,
+      y: 400,
+      image: tPlatformImage,
+      block: true,
+    }),
+    new Platform({
+      x: 10500,
+      y: 300,
+      image: tPlatformImage,
+      block: true,
+    }),
+    new Platform({
+      x: 10900,
+      y: 200,
+      image: tPlatformImage,
+      block: true,
+    }),
+    new Platform({
+      x: 11300,
+      y: 100,
+      image: tPlatformImage,
+      block: true,
+    }),
   ]
 
   flagPole = new GenericObject({
-    x: 10000 + 600,
+    x: 12000,
     y: canvas.height - lgPlatformImage.height -  flagPoleImage.height - 100,
     image: flagPoleImage
   })
@@ -1323,6 +1761,27 @@ async function init() {
     'gap',
     'gap',
     'gap',
+    'lg',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'lg',
     'lg'
   ]
 
@@ -1447,20 +1906,32 @@ async function initLevel2() {
   tPlatformImage = await createImageAsync(tPlatform)
   xtPlatformImage = await createImageAsync(xtPlatform)
   flagPoleImage = await createImageAsync(flagPoleSprite)
+  farolImage = await createImageAsync(farol)
   const mountains = await createImageAsync(images.levels[2].mountains)
   const mdPlatformImage = await createImageAsync(images.levels[2].mdPlatform)
+  const palmeirasImage = await createImageAsync(images.levels[2].palmeiras)
+  const barcoImage = await createImageAsync(images.levels[2].barco)
+  platformImage = await createImageAsync(platform)
+  platformSmallTallImage = await createImageAsync(platformSmallTall)
+  blockTriImage = await createImageAsync(blockTri)
+  blockImage = await createImageAsync(block)
+  flamingoImage = await createImageAsync(flamengo)
+  guardaSolAmareloImage = await createImageAsync(guardaSolAmarelo)
+  guardaSolVermelhoImage = await createImageAsync(guardaSolVermelho)
+  boiasImage = await createImageAsync(boias)
+  moedaImage = await createImageAsync(moeda)
+  tijoloImage = await createImageAsync(tijolo)
 
   flagPole = new GenericObject({
-    x: 7680,
-    // x: 500,
-    y: canvas.height - lgPlatformImage.height - flagPoleImage.height,
-    image: flagPoleImage
+    x: 14000,
+    y: -710,
+    image: farolImage
   })
 
   fireFlowers = [
     new FireFlower({
       position: {
-        x: 4734 - 28,
+        x: 7000,
         y: 100
       },
       velocity: {
@@ -1470,10 +1941,611 @@ async function initLevel2() {
     })
   ]
 
+  tijolos = [
+      new Tijolo({
+        position: {
+          x: 13300,
+          y: 100
+        },
+        velocity: {
+          x: 0,
+          y: 0
+        }
+      })
+  ]
+
+  moedas = [
+    new Moeda({
+      position: {
+        x: 1550,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 1600,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 1650,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 1700,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 1878 + lgPlatformImage.width + 175,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 1878 + lgPlatformImage.width + 155 + 200,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 1878 + lgPlatformImage.width + 155 + 200 + 200,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 1878 + lgPlatformImage.width + 155 + 200 + 200 + 200,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 5000,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 6150,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 6200,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 6250,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 8200,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 8900,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 8850,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 9850,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 9900,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 9950,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 10800,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 11200,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 11600,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+    new Moeda({
+      position: {
+        x: 12000,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+
+  ]
+
   player = new Player()
 
   particles = []
+
+  gaivotas = [
+    new Gaivota({
+      position: {
+        x:900,
+        y: 100
+      },
+      velocity: {
+        x: -2,
+        y:0
+      },
+      distance: {
+        limit: 100,
+        traveled: 0
+      }
+    }),
+    new Gaivota({
+      position: {
+        x:7400,
+        y: 100
+      },
+      velocity: {
+        x: -3 ,
+        y:0
+      },
+      distance: {
+        limit: 300,
+        traveled: 0
+      }
+    }),
+    new Gaivota({
+      position: {
+        x:11000,
+        y: 100
+      },
+      velocity: {
+        x: -5,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+    new Gaivota({
+      position: {
+        x:12300,
+        y: 100
+      },
+      velocity: {
+        x: -5,
+        y:0
+      },
+      distance: {
+        limit: 350,
+        traveled: 0
+      }
+    }),
+  ]
+
+  polvos = [
+    new Polvo({
+      position: {
+        x: 5000,
+        y: 100
+      },
+      velocity: {
+        x: -1.5,
+        y:0
+      },
+      distance: {
+        limit: 450,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x: 5100,
+        y: 100
+      },
+      velocity: {
+        x: -1.5,
+        y:0
+      },
+      distance: {
+        limit: 450,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x: 8200,
+        y: 100
+      },
+      velocity: {
+        x: -2,
+        y:0
+      },
+      distance: {
+        limit: 250,
+        traveled: 0
+      }
+    }),
+
+    new Polvo({
+      position: {
+        x: 9000,
+        y: 100
+      },
+      velocity: {
+        x: -2,
+        y:0
+      },
+      distance: {
+        limit: 250,
+        traveled: 0
+      }
+    }),
+
+    new Polvo({
+      position: {
+        x: 9100,
+        y: 100
+      },
+      velocity: {
+        x: -2,
+        y:0
+      },
+      distance: {
+        limit: 250,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x: 10100,
+        y: 100
+      },
+      velocity: {
+        x: -3,
+        y:0
+      },
+      distance: {
+        limit: 550,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x: 10200,
+        y: 100
+      },
+      velocity: {
+        x: -3,
+        y:0
+      },
+      distance: {
+        limit: 550,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x: 10300,
+        y: 100
+      },
+      velocity: {
+        x: -3,
+        y:0
+      },
+      distance: {
+        limit: 550,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x: 11200,
+        y: 100
+      },
+      velocity: {
+        x: -5,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+    new Polvo({
+      position: {
+        x: 12400,
+        y: 100
+      },
+      velocity: {
+        x: -5,
+        y:0
+      },
+      distance: {
+        limit: 350,
+        traveled: 0
+      }
+    }),
+  ]
+
+  crabs = [
+    new Crab({
+      position: {
+        x:1200,
+        y: 100
+      },
+      velocity: {
+        x: -2,
+        y:0
+      },
+      distance: {
+        limit: 100,
+        traveled: 0
+      }
+    }),
+    new Crab({
+      position: {
+        x: 1991 + lgPlatformImage.width - tPlatformImage.width + 100,
+        y: 400
+      },
+      velocity: {
+        x: -2,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+
+    new Crab({
+      position: {
+        x: 1991 + lgPlatformImage.width - tPlatformImage.width + 400,
+        y: 400
+      },
+      velocity: {
+        x: -2,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+
+    new Crab({
+      position: {
+        x: 1991 + lgPlatformImage.width - tPlatformImage.width + 800,
+        y: 400
+      },
+      velocity: {
+        x: -2,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+
+    new Crab({
+      position: {
+        x: 8750,
+        y: 100
+      },
+      velocity: {
+        x: -2,
+        y:0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+    new Crab({
+      position: {
+        x: 6700,
+        y: 100
+      },
+      velocity: {
+        x: -2,
+        y: 0
+      },
+      distance: {
+        limit: 250,
+        traveled: 0
+      }
+    }),
+    new Crab({
+      position: {
+        x: 11700,
+        y: 100
+      },
+      velocity: {
+        x: -5,
+        y: 0
+      },
+      distance: {
+        limit: 150,
+        traveled: 0
+      }
+    }),
+    new Crab({
+      position: {
+        x: 12500,
+        y: 100
+      },
+      velocity: {
+        x: -5,
+        y: 0
+      },
+      distance: {
+        limit: 350,
+        traveled: 0
+      }
+    }),
+  ]
+
   platforms = [
+    new Platform({
+      x: -1,
+      y: canvas.height - platformImage.height - 100,
+      image: platformImage,
+      block: true
+    }),
+    new Platform({
+      x: platformImage.width - 2,
+      y: canvas.height - platformImage.height - 100,
+      image: platformImage,
+      block: true
+    }),
+    new Platform({
+      x: platformImage.width * 2 - 3,
+      y: canvas.height - platformImage.height - 100,
+      image: platformImage,
+      block: true
+    }),
+    new Platform({
+      x: platformImage.width * 3 - 4,
+      y: canvas.height - platformImage.height - 100,
+      image: platformImage,
+      block: true
+    }),
+    new Platform({
+      x: 600,
+      y: 295,
+      image: guardaSolVermelhoImage,
+      block: true
+    }),
     new Platform({
       x: 903 + mdPlatformImage.width + 115,
       y: 300,
@@ -1488,7 +2560,7 @@ async function initLevel2() {
     }),
     new Platform({
       x: 1878 + lgPlatformImage.width + 175,
-      y: 360,
+      y: 300,
       image: blockImage,
       block: true
     }),
@@ -1510,6 +2582,26 @@ async function initLevel2() {
       image: blockImage,
       block: true
     }),
+    new Platform({
+      x: 1991 + lgPlatformImage.width - tPlatformImage.width + 1200,
+      y: 380,
+      image: flamingoImage,
+      block: true
+    }),
+    new Platform({
+      x: 5300,
+      y: 330,
+      image: boiasImage,
+      block: true
+    }),
+
+    new Platform({
+      x: 6300,
+      y: 250,
+      image: boiasImage,
+      block: true
+    }),
+
     new Platform({
       x: 4734 - mdPlatformImage.width / 2,
       y: canvas.height - lgPlatformImage.height - mdPlatformImage.height,
@@ -1539,8 +2631,44 @@ async function initLevel2() {
       x: 6787,
       y: canvas.height - lgPlatformImage.height - mdPlatformImage.height * 3,
       image: mdPlatformImage
-    })
+    }),
+    new Platform({
+      x: 11500 - mdPlatformImage.width,
+      y: canvas.height - lgPlatformImage.height - mdPlatformImage.height * 2,
+      image: mdPlatformImage
+    }),
+    new Platform({
+      x: 11500,
+      y: canvas.height - lgPlatformImage.height - mdPlatformImage.height * 2,
+      image: mdPlatformImage
+    }),
+    new Platform({
+      x: 11500,
+      y: canvas.height - lgPlatformImage.height - mdPlatformImage.height * 3,
+      image: mdPlatformImage
+    }),
+    new Platform({
+      x: 13800,
+      y: canvas.height - platformImage.height - 100,
+      image: platformImage
+    }),
+    new Platform({
+      x: 14300,
+      y: canvas.height - platformImage.height - 100,
+      image: platformImage
+    }),
+    new Platform({
+      x: 12900,
+      y: 500,
+      image: blockImage
+    }),
+    new Platform({
+      x: 13300,
+      y: 400,
+      image: blockImage
+    }),
   ]
+
   genericObjects = [
     new GenericObject({
       x: -1,
@@ -1548,15 +2676,43 @@ async function initLevel2() {
       image: createImage(images.levels[2].background)
     }),
     new GenericObject({
-      x: -1,
-      y: canvas.height - mountains.height,
-      image: mountains
+      x: 500,
+      y: 210,
+      image: palmeirasImage
+    }),
+    new GenericObject({
+      x: 2400,
+      y: 0,
+      image: barcoImage
     })
+  ]
+
+  mares= [
+    new Mar({
+      x: 0,
+      y: 560,
+      image: createImage(mar)
+    }),
   ]
 
   scrollOffset = 0
 
   const platformsMap = [
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
+    'gap',
     'lg',
     'md',
     'gap',
@@ -1565,10 +2721,6 @@ async function initLevel2() {
     'lg',
     'gap',
     'gap',
-    'gap',
-    'gap',
-    'gap',
-    'gap',
     'lg',
     'lg',
     'gap',
@@ -1579,7 +2731,14 @@ async function initLevel2() {
     'md',
     'gap',
     'gap',
-    'lg'
+    'lg',
+    'gap',
+    'gap',
+    'lg',
+    'lg',
+    'gap',
+    'gap',
+    'gap',
   ]
 
   let platformDistance = 0
@@ -1590,7 +2749,7 @@ async function initLevel2() {
         platforms.push(
             new Platform({
               x: platformDistance,
-              y: canvas.height - mdPlatformImage.height,
+              y: canvas.height - mdPlatformImage.height - 113,
               image: mdPlatformImage,
               block: true,
               text: platformDistance
@@ -1604,7 +2763,7 @@ async function initLevel2() {
         platforms.push(
             new Platform({
               x: platformDistance - 2,
-              y: canvas.height - lgPlatformImage.height,
+              y: canvas.height - lgPlatformImage.height - 100,
               image: lgPlatformImage,
               block: true,
               text: platformDistance
@@ -1624,7 +2783,7 @@ async function initLevel2() {
         platforms.push(
             new Platform({
               x: platformDistance,
-              y: canvas.height - tPlatformImage.height,
+              y: canvas.height - tPlatformImage.height - 100,
               image: tPlatformImage,
               block: true
             })
@@ -1638,7 +2797,7 @@ async function initLevel2() {
         platforms.push(
             new Platform({
               x: platformDistance,
-              y: canvas.height - xtPlatformImage.height,
+              y: canvas.height - xtPlatformImage.height - 100,
               image: xtPlatformImage,
               block: true,
               text: platformDistance
@@ -1651,6 +2810,43 @@ async function initLevel2() {
     }
   })
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function animate() {
   requestAnimationFrame(animate)
@@ -1780,7 +2976,7 @@ function animate() {
     }
   }
 
-  // mario obtains powerup
+  // player obtains powerup
   fireFlowers.forEach((fireFlower, i) => {
     if (
         objectsTouch({
@@ -1796,91 +2992,34 @@ function animate() {
     } else fireFlower.update()
   })
 
-  goombas.forEach((goomba, index) => {
-    goomba.update()
-
-    // remove goomba on fireball hit
-    particles.forEach((particle, particleIndex) => {
-      if (
-          particle.fireball &&
-          particle.position.x + particle.radius >= goomba.position.x &&
-          particle.position.y + particle.radius >= goomba.position.y &&
-          particle.position.x - particle.radius <=
-          goomba.position.x + goomba.width &&
-          particle.position.y - particle.radius <=
-          goomba.position.y + goomba.height
-      ) {
-        for (let i = 0; i < 50; i++) {
-          particles.push(
-              new Particle({
-                position: {
-                  x: goomba.position.x + goomba.width / 2,
-                  y: goomba.position.y + goomba.height / 2
-                },
-                velocity: {
-                  x: (Math.random() - 0.5) * 7,
-                  y: (Math.random() - 0.5) * 15
-                },
-                radius: Math.random() * 3
-              })
-          )
-        }
-        setTimeout(() => {
-          goombas.splice(index, 1)
-          particles.splice(particleIndex, 1)
-        }, 0)
-      }
-    })
-
-    // goomba stomp squish / squash
+  moedas.forEach((moeda, i) => {
     if (
-        collisionTop({
+        objectsTouch({
           object1: player,
-          object2: goomba
+          object2: moeda
         })
     ) {
-      audio.goombaSquash.play()
-
-      for (let i = 0; i < 50; i++) {
-        particles.push(
-            new Particle({
-              position: {
-                x: goomba.position.x + goomba.width / 2,
-                y: goomba.position.y + goomba.height / 2
-              },
-              velocity: {
-                x: (Math.random() - 0.5) * 7,
-                y: (Math.random() - 0.5) * 15
-              },
-              radius: Math.random() * 3
-            })
-        )
-      }
-      player.velocity.y -= 40
+      audio.obtainPowerUp.play()
       setTimeout(() => {
-        goombas.splice(index, 1)
+        moedas.splice(i, 1)
       }, 0)
-    } else if (
-        player.position.x + player.width >= goomba.position.x &&
-        player.position.y + player.height >= goomba.position.y &&
-        player.position.x <= goomba.position.x + goomba.width
-    ) {
-      // player hits goomba
-      // lose fireflower / lose powerup
-      if (player.powerUps.fireFlower) {
-        player.invincible = true
-        player.powerUps.fireFlower = false
-        audio.losePowerUp.play()
-
-        setTimeout(() => {
-          player.invincible = false
-        }, 1000)
-      } else if (!player.invincible) {
-        audio.die.play()
-        selectLevel(currentLevel)
-      }
-    }
+    } else moeda.update()
   })
+
+  tijolos.forEach((tijolo, i) => {
+    if (
+        objectsTouch({
+          object1: player,
+          object2: tijolo
+        })
+    ) {
+      audio.obtainPowerUp.play()
+      setTimeout(() => {
+        tijolos.splice(i, 1)
+      }, 0)
+    } else tijolo.update()
+  })
+
 
   crabs.forEach((crab, index) => {
     crab.update()
@@ -2054,6 +3193,93 @@ function animate() {
     }
   })
 
+  gaivotas.forEach((gaivota, index) => {
+    gaivota.update()
+
+    // remove gaivota on fireball hit
+    particles.forEach((particle, particleIndex) => {
+      if (
+          particle.fireball &&
+          particle.position.x + particle.radius >= gaivota.position.x &&
+          particle.position.y + particle.radius >= gaivota.position.y &&
+          particle.position.x - particle.radius <=
+          gaivota.position.x + gaivota.width &&
+          particle.position.y - particle.radius <=
+          gaivota.position.y + gaivota.height
+      ) {
+        for (let i = 0; i < 50; i++) {
+          particles.push(
+              new Particle({
+                position: {
+                  x: gaivota.position.x + gaivota.width / 2,
+                  y: gaivota.position.y + gaivota.height / 2
+                },
+                velocity: {
+                  x: (Math.random() - 0.5) * 7,
+                  y: (Math.random() - 0.5) * 15
+                },
+                radius: Math.random() * 3
+              })
+          )
+        }
+        setTimeout(() => {
+          gaivotas.splice(index, 1)
+          particles.splice(particleIndex, 1)
+        }, 0)
+      }
+    })
+
+    // gaivota stomp squish / squash
+    if (
+        collisionTop({
+          object1: player,
+          object2: gaivota
+        })
+    ) {
+      audio.goombaSquash.play()
+
+      for (let i = 0; i < 50; i++) {
+        particles.push(
+            new Particle({
+              position: {
+                x: gaivota.position.x + gaivota.width / 2,
+                y: gaivota.position.y + gaivota.height / 2
+              },
+              velocity: {
+                x: (Math.random() - 0.5) * 7,
+                y: (Math.random() - 0.5) * 15
+              },
+              radius: Math.random() * 3
+            })
+        )
+      }
+      player.velocity.y -= 40
+      setTimeout(() => {
+        gaivotas.splice(index, 1)
+      }, 0)
+    } else if (
+        player.position.x + player.width >= gaivota.position.x &&
+        player.position.y + player.height >= gaivota.position.y &&
+        player.position.x <= gaivota.position.x + gaivota.width
+    ) {
+
+      // player hits enemy
+      // lose fireflower / lose powerup
+      if (player.powerUps.fireFlower) {
+        player.invincible = true
+        player.powerUps.fireFlower = false
+        audio.losePowerUp.play()
+
+        setTimeout(() => {
+          player.invincible = false
+        }, 1000)
+      } else if (!player.invincible) {
+        audio.die.play()
+        selectLevel(currentLevel)
+      }
+    }
+  })
+
 
 
   player.update()
@@ -2123,8 +3349,20 @@ function animate() {
           polvo.position.x -= player.speed
         })
 
+        gaivotas.forEach((gaivota) => {
+          gaivota.position.x -= player.speed
+        })
+
         fireFlowers.forEach((fireFlower) => {
           fireFlower.position.x -= player.speed
+        })
+
+        moedas.forEach((moeda) => {
+          moeda.position.x -= player.speed
+        })
+
+        tijolos.forEach((tijolo) => {
+          tijolo.position.x -= player.speed
         })
 
         particles.forEach((particle) => {
@@ -2177,8 +3415,20 @@ function animate() {
           polvo.position.x += player.speed
         })
 
+        gaivotas.forEach((gaivota) => {
+          gaivota.position.x += player.speed
+        })
+
         fireFlowers.forEach((fireFlower) => {
           fireFlower.position.x += player.speed
+        })
+
+        moedas.forEach((moeda) => {
+          moeda.position.x += player.speed
+        })
+
+        tijolos.forEach((tijolo) => {
+          tijolo.position.x += player.speed
         })
 
         particles.forEach((particle) => {
@@ -2257,6 +3507,16 @@ function animate() {
         polvo.velocity.y = 0
     })
 
+    gaivotas.forEach((gaivota) => {
+      if (
+          isOnTopOfPlatform({
+            object: gaivota,
+            platform
+          })
+      )
+        gaivota.velocity.y = 0
+    })
+
     fireFlowers.forEach((fireFlower) => {
       if (
           isOnTopOfPlatform({
@@ -2266,7 +3526,30 @@ function animate() {
       )
         fireFlower.velocity.y = 0
     })
+
+    moedas.forEach((moeda) => {
+      if (
+          isOnTopOfPlatform({
+            object: moeda,
+            platform
+          })
+      )
+        moeda.velocity.y = 0
+    })
+
+    tijolos.forEach((tijolo) => {
+      if (
+          isOnTopOfPlatform({
+            object: tijolo,
+            platform
+          })
+      )
+        tijolo.velocity.y = 0
+    })
+
   })
+
+
 
   // lose condition
   if (player.position.y > canvas.height) {
@@ -2344,7 +3627,7 @@ function animate() {
   }
 } // animation loop ends
 
-selectLevel(1)
+selectLevel(0)
 // init()
 // initLevel2()
 animate()

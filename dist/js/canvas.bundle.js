@@ -10048,6 +10048,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/farol.png":
+/*!***************************!*\
+  !*** ./src/img/farol.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "fda6664b10b82328c4a73003f09ecf03.png");
+
+/***/ }),
+
 /***/ "./src/img/farol_destruido.png":
 /*!*************************************!*\
   !*** ./src/img/farol_destruido.png ***!
@@ -10100,6 +10113,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/gaivota.png":
+/*!*****************************!*\
+  !*** ./src/img/gaivota.png ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "45652b9d8d0d28921616361dfc24ad56.png");
+
+/***/ }),
+
 /***/ "./src/img/guarda_sol_amarelo.png":
 /*!****************************************!*\
   !*** ./src/img/guarda_sol_amarelo.png ***!
@@ -10135,7 +10161,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "38f7e9ffc7b9e50090785b0836e49ba3.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "18b2727dba288358c07b3a7bd912bdb6.png");
+
+/***/ }),
+
+/***/ "./src/img/level2/barco.png":
+/*!**********************************!*\
+  !*** ./src/img/level2/barco.png ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "39785a19521a2be4b353eb005cf1d600.png");
 
 /***/ }),
 
@@ -10148,7 +10187,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dc6f057d3bc6abca57f5ba86213edc7b.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "a1b8d60cda370d245dbad091907621e1.png");
 
 /***/ }),
 
@@ -10161,7 +10200,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "0b8962397444c8d035482f8d250cf428.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "d8768f0af7e6acc4391e47198a907782.png");
 
 /***/ }),
 
@@ -10175,6 +10214,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "b83154a3dc63cdc45428534b969e9f25.png");
+
+/***/ }),
+
+/***/ "./src/img/level2/palmeiras.png":
+/*!**************************************!*\
+  !*** ./src/img/level2/palmeiras.png ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "5dbb9b42c2de215d2d1fbc770fe1ecdd.png");
 
 /***/ }),
 
@@ -10408,7 +10460,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "9dbb2ea6eef6eaf7a77c976257148ec1.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "4de3f8fca4600ee287a8e65bd03c7bba.png");
 
 /***/ }),
 
@@ -10448,19 +10500,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "6e473825ab75485960327caa518ebef0.png");
-
-/***/ }),
-
-/***/ "./src/img/spriteGoomba.png":
-/*!**********************************!*\
-  !*** ./src/img/spriteGoomba.png ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "a1de12fbeda5f4cadc1c0cec27c01014.png");
 
 /***/ }),
 
@@ -10697,45 +10736,47 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_casas_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/casas.png */ "./src/img/casas.png");
 /* harmony import */ var _img_ceu_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/ceu.png */ "./src/img/ceu.png");
 /* harmony import */ var _img_dunas_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/dunas.png */ "./src/img/dunas.png");
-/* harmony import */ var _img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/platformSmallTall.png */ "./src/img/platformSmallTall.png");
-/* harmony import */ var _img_block_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/block.png */ "./src/img/block.png");
-/* harmony import */ var _img_blockTri_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/blockTri.png */ "./src/img/blockTri.png");
-/* harmony import */ var _img_boias_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/boias.png */ "./src/img/boias.png");
-/* harmony import */ var _img_flamengo_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/flamengo.png */ "./src/img/flamengo.png");
-/* harmony import */ var _img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/guarda_sol_vermelho.png */ "./src/img/guarda_sol_vermelho.png");
-/* harmony import */ var _img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/guarda_sol_amarelo.png */ "./src/img/guarda_sol_amarelo.png");
-/* harmony import */ var _img_mdPlatform_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/mdPlatform.png */ "./src/img/mdPlatform.png");
-/* harmony import */ var _img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/lgPlatform.png */ "./src/img/lgPlatform.png");
-/* harmony import */ var _img_tPlatform_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/tPlatform.png */ "./src/img/tPlatform.png");
-/* harmony import */ var _img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/xtPlatform.png */ "./src/img/xtPlatform.png");
-/* harmony import */ var _img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/farol_destruido.png */ "./src/img/farol_destruido.png");
-/* harmony import */ var _img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/spriteRunLeft.png */ "./src/img/spriteRunLeft.png");
-/* harmony import */ var _img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/spriteRunRight.png */ "./src/img/spriteRunRight.png");
-/* harmony import */ var _img_standRight_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/standRight.png */ "./src/img/standRight.png");
-/* harmony import */ var _img_standLeft_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/standLeft.png */ "./src/img/standLeft.png");
-/* harmony import */ var _img_spriteJumpRight_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/spriteJumpRight.png */ "./src/img/spriteJumpRight.png");
-/* harmony import */ var _img_spriteJumpLeft_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/spriteJumpLeft.png */ "./src/img/spriteJumpLeft.png");
-/* harmony import */ var _img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/spriteFireFlowerRunRight.png */ "./src/img/spriteFireFlowerRunRight.png");
-/* harmony import */ var _img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/spriteFireFlowerRunLeft.png */ "./src/img/spriteFireFlowerRunLeft.png");
-/* harmony import */ var _img_fireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/fireFlowerStandRight.png */ "./src/img/fireFlowerStandRight.png");
-/* harmony import */ var _img_fireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/fireFlowerStandLeft.png */ "./src/img/fireFlowerStandLeft.png");
-/* harmony import */ var _img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpRight.png */ "./src/img/spriteFireFlowerJumpRight.png");
-/* harmony import */ var _img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpLeft.png */ "./src/img/spriteFireFlowerJumpLeft.png");
-/* harmony import */ var _img_sal_png__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../img/sal.png */ "./src/img/sal.png");
-/* harmony import */ var _img_moeda_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../img/moeda.png */ "./src/img/moeda.png");
-/* harmony import */ var _img_tijolo_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../img/tijolo.png */ "./src/img/tijolo.png");
-/* harmony import */ var _img_spriteGoomba_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../img/spriteGoomba.png */ "./src/img/spriteGoomba.png");
+/* harmony import */ var _img_farol_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/farol.png */ "./src/img/farol.png");
+/* harmony import */ var _img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/platformSmallTall.png */ "./src/img/platformSmallTall.png");
+/* harmony import */ var _img_block_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/block.png */ "./src/img/block.png");
+/* harmony import */ var _img_blockTri_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/blockTri.png */ "./src/img/blockTri.png");
+/* harmony import */ var _img_boias_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/boias.png */ "./src/img/boias.png");
+/* harmony import */ var _img_flamengo_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/flamengo.png */ "./src/img/flamengo.png");
+/* harmony import */ var _img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/guarda_sol_vermelho.png */ "./src/img/guarda_sol_vermelho.png");
+/* harmony import */ var _img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/guarda_sol_amarelo.png */ "./src/img/guarda_sol_amarelo.png");
+/* harmony import */ var _img_mdPlatform_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/mdPlatform.png */ "./src/img/mdPlatform.png");
+/* harmony import */ var _img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/lgPlatform.png */ "./src/img/lgPlatform.png");
+/* harmony import */ var _img_tPlatform_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/tPlatform.png */ "./src/img/tPlatform.png");
+/* harmony import */ var _img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/xtPlatform.png */ "./src/img/xtPlatform.png");
+/* harmony import */ var _img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/farol_destruido.png */ "./src/img/farol_destruido.png");
+/* harmony import */ var _img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/spriteRunLeft.png */ "./src/img/spriteRunLeft.png");
+/* harmony import */ var _img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/spriteRunRight.png */ "./src/img/spriteRunRight.png");
+/* harmony import */ var _img_standRight_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/standRight.png */ "./src/img/standRight.png");
+/* harmony import */ var _img_standLeft_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/standLeft.png */ "./src/img/standLeft.png");
+/* harmony import */ var _img_spriteJumpRight_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/spriteJumpRight.png */ "./src/img/spriteJumpRight.png");
+/* harmony import */ var _img_spriteJumpLeft_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/spriteJumpLeft.png */ "./src/img/spriteJumpLeft.png");
+/* harmony import */ var _img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/spriteFireFlowerRunRight.png */ "./src/img/spriteFireFlowerRunRight.png");
+/* harmony import */ var _img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/spriteFireFlowerRunLeft.png */ "./src/img/spriteFireFlowerRunLeft.png");
+/* harmony import */ var _img_fireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/fireFlowerStandRight.png */ "./src/img/fireFlowerStandRight.png");
+/* harmony import */ var _img_fireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/fireFlowerStandLeft.png */ "./src/img/fireFlowerStandLeft.png");
+/* harmony import */ var _img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpRight.png */ "./src/img/spriteFireFlowerJumpRight.png");
+/* harmony import */ var _img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../img/spriteFireFlowerJumpLeft.png */ "./src/img/spriteFireFlowerJumpLeft.png");
+/* harmony import */ var _img_sal_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../img/sal.png */ "./src/img/sal.png");
+/* harmony import */ var _img_moeda_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../img/moeda.png */ "./src/img/moeda.png");
+/* harmony import */ var _img_tijolo_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../img/tijolo.png */ "./src/img/tijolo.png");
 /* harmony import */ var _img_polvo_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../img/polvo.png */ "./src/img/polvo.png");
 /* harmony import */ var _img_crab_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../img/crab.png */ "./src/img/crab.png");
-/* harmony import */ var _img_placa_farol_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../img/placa_farol.png */ "./src/img/placa_farol.png");
-/* harmony import */ var _img_placa_mar_png__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../img/placa_mar.png */ "./src/img/placa_mar.png");
-/* harmony import */ var _img_placa_mover_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../img/placa_mover.png */ "./src/img/placa_mover.png");
-/* harmony import */ var _img_placa_powerup_png__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../img/placa_powerup.png */ "./src/img/placa_powerup.png");
-/* harmony import */ var _img_placa_saltar_png__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../img/placa_saltar.png */ "./src/img/placa_saltar.png");
-/* harmony import */ var _img_placa_inimigos_png__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ../img/placa_inimigos.png */ "./src/img/placa_inimigos.png");
-/* harmony import */ var _img_placa_tiros_png__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../img/placa_tiros.png */ "./src/img/placa_tiros.png");
-/* harmony import */ var _audio_js__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./audio.js */ "./src/js/audio.js");
-/* harmony import */ var _images_js__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./images.js */ "./src/js/images.js");
+/* harmony import */ var _img_gaivota_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../img/gaivota.png */ "./src/img/gaivota.png");
+/* harmony import */ var _img_placa_farol_png__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../img/placa_farol.png */ "./src/img/placa_farol.png");
+/* harmony import */ var _img_placa_mar_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../img/placa_mar.png */ "./src/img/placa_mar.png");
+/* harmony import */ var _img_placa_mover_png__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../img/placa_mover.png */ "./src/img/placa_mover.png");
+/* harmony import */ var _img_placa_powerup_png__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../img/placa_powerup.png */ "./src/img/placa_powerup.png");
+/* harmony import */ var _img_placa_saltar_png__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ../img/placa_saltar.png */ "./src/img/placa_saltar.png");
+/* harmony import */ var _img_placa_inimigos_png__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../img/placa_inimigos.png */ "./src/img/placa_inimigos.png");
+/* harmony import */ var _img_placa_tiros_png__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../img/placa_tiros.png */ "./src/img/placa_tiros.png");
+/* harmony import */ var _audio_js__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./audio.js */ "./src/js/audio.js");
+/* harmony import */ var _images_js__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./images.js */ "./src/js/images.js");
+
 
 
 
@@ -10809,37 +10850,37 @@ var Player = /*#__PURE__*/function () {
     this.scale = 0.3;
     this.width = 400 * this.scale;
     this.height = 404 * this.scale;
-    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standRight_png__WEBPACK_IMPORTED_MODULE_25__["default"]);
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standRight_png__WEBPACK_IMPORTED_MODULE_26__["default"]);
     this.frames = 0;
     this.sprites = {
       stand: {
-        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standRight_png__WEBPACK_IMPORTED_MODULE_25__["default"]),
-        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standLeft_png__WEBPACK_IMPORTED_MODULE_26__["default"]),
+        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standRight_png__WEBPACK_IMPORTED_MODULE_26__["default"]),
+        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_standLeft_png__WEBPACK_IMPORTED_MODULE_27__["default"]),
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_fireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_31__["default"]),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_fireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_32__["default"])
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_fireFlowerStandRight_png__WEBPACK_IMPORTED_MODULE_32__["default"]),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_fireFlowerStandLeft_png__WEBPACK_IMPORTED_MODULE_33__["default"])
         }
       },
       run: {
-        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_24__["default"]),
-        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_23__["default"]),
+        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_25__["default"]),
+        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteRunLeft_png__WEBPACK_IMPORTED_MODULE_24__["default"]),
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_29__["default"]),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_30__["default"])
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunRight_png__WEBPACK_IMPORTED_MODULE_30__["default"]),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerRunLeft_png__WEBPACK_IMPORTED_MODULE_31__["default"])
         }
       },
       jump: {
-        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteJumpRight_png__WEBPACK_IMPORTED_MODULE_27__["default"]),
-        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteJumpLeft_png__WEBPACK_IMPORTED_MODULE_28__["default"]),
+        right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteJumpRight_png__WEBPACK_IMPORTED_MODULE_28__["default"]),
+        left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteJumpLeft_png__WEBPACK_IMPORTED_MODULE_29__["default"]),
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_33__["default"]),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_34__["default"])
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpRight_png__WEBPACK_IMPORTED_MODULE_34__["default"]),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_spriteFireFlowerJumpLeft_png__WEBPACK_IMPORTED_MODULE_35__["default"])
         }
       },
       shoot: {
         fireFlower: {
-          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].mario.shoot.fireFlower.right),
-          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].mario.shoot.fireFlower.left)
+          right: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_50__["images"].mario.shoot.fireFlower.right),
+          left: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_50__["images"].mario.shoot.fireFlower.left)
         }
       }
     };
@@ -11132,10 +11173,62 @@ var Crab = /*#__PURE__*/function () {
   return Crab;
 }();
 
-var FireFlower = /*#__PURE__*/function () {
-  function FireFlower(_ref7) {
+var Gaivota = /*#__PURE__*/function () {
+  function Gaivota(_ref7) {
     var position = _ref7.position,
-        velocity = _ref7.velocity;
+        velocity = _ref7.velocity,
+        _ref7$distance = _ref7.distance,
+        distance = _ref7$distance === void 0 ? {
+      limit: 50,
+      traveled: 0
+    } : _ref7$distance;
+
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Gaivota);
+
+    this.position = {
+      x: position.x,
+      y: position.y
+    };
+    this.velocity = {
+      x: velocity.x,
+      y: velocity.y
+    };
+    this.width = 100;
+    this.height = 100;
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_gaivota_png__WEBPACK_IMPORTED_MODULE_41__["default"]);
+    this.frames = 0;
+    this.distance = distance;
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Gaivota, [{
+    key: "draw",
+    value: function draw() {
+      c.drawImage(this.image, this.position.x, this.position.y);
+    }
+  }, {
+    key: "update",
+    value: function update() {
+      this.draw();
+      this.position.x += this.velocity.x;
+      this.position.y += this.velocity.y;
+      if (this.position.y + this.height + this.velocity.y <= canvas.height) this.velocity.y += gravity; // walk the gaivota back and forth
+
+      this.distance.traveled += Math.abs(this.velocity.x);
+
+      if (this.distance.traveled > this.distance.limit) {
+        this.distance.traveled = 0;
+        this.velocity.x = -this.velocity.x;
+      }
+    }
+  }]);
+
+  return Gaivota;
+}();
+
+var FireFlower = /*#__PURE__*/function () {
+  function FireFlower(_ref8) {
+    var position = _ref8.position,
+        velocity = _ref8.velocity;
 
     _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, FireFlower);
 
@@ -11149,14 +11242,12 @@ var FireFlower = /*#__PURE__*/function () {
     };
     this.width = 52;
     this.height = 47;
-    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_sal_png__WEBPACK_IMPORTED_MODULE_35__["default"]);
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_sal_png__WEBPACK_IMPORTED_MODULE_36__["default"]);
   }
 
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(FireFlower, [{
     key: "draw",
     value: function draw() {
-      // c.fillStyle = 'red'
-      // c.fillRect(this.position.x, this.position.y, this.width, this.height)
       c.drawImage(this.image, this.position.x, this.position.y);
     }
   }, {
@@ -11172,13 +11263,12 @@ var FireFlower = /*#__PURE__*/function () {
   return FireFlower;
 }();
 
-var Collectable = /*#__PURE__*/function () {
-  function Collectable(_ref8) {
-    var position = _ref8.position,
-        velocity = _ref8.velocity,
-        image = _ref8.image;
+var Moeda = /*#__PURE__*/function () {
+  function Moeda(_ref9) {
+    var position = _ref9.position,
+        velocity = _ref9.velocity;
 
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Collectable);
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Moeda);
 
     this.position = {
       x: position.x,
@@ -11188,12 +11278,11 @@ var Collectable = /*#__PURE__*/function () {
       x: velocity.x,
       y: velocity.y
     };
-    this.width = image.width;
-    this.height = image.height;
-    this.image = image;
+    this.width = 39, this.height = 39;
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_moeda_png__WEBPACK_IMPORTED_MODULE_37__["default"]);
   }
 
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Collectable, [{
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Moeda, [{
     key: "draw",
     value: function draw() {
       c.drawImage(this.image, this.position.x, this.position.y);
@@ -11208,20 +11297,57 @@ var Collectable = /*#__PURE__*/function () {
     }
   }]);
 
-  return Collectable;
+  return Moeda;
+}();
+
+var Tijolo = /*#__PURE__*/function () {
+  function Tijolo(_ref10) {
+    var position = _ref10.position,
+        velocity = _ref10.velocity;
+
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Tijolo);
+
+    this.position = {
+      x: position.x,
+      y: position.y
+    };
+    this.velocity = {
+      x: velocity.x,
+      y: velocity.y
+    };
+    this.width = 45, this.height = 39;
+    this.image = Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_tijolo_png__WEBPACK_IMPORTED_MODULE_38__["default"]);
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Tijolo, [{
+    key: "draw",
+    value: function draw() {
+      c.drawImage(this.image, this.position.x, this.position.y);
+    }
+  }, {
+    key: "update",
+    value: function update() {
+      this.draw();
+      this.position.x += this.velocity.x;
+      this.position.y += this.velocity.y;
+      if (this.position.y + this.height + this.velocity.y <= canvas.height) this.velocity.y += gravity;
+    }
+  }]);
+
+  return Tijolo;
 }();
 
 var Particle = /*#__PURE__*/function () {
-  function Particle(_ref9) {
-    var position = _ref9.position,
-        velocity = _ref9.velocity,
-        radius = _ref9.radius,
-        _ref9$color = _ref9.color,
-        color = _ref9$color === void 0 ? '#654428' : _ref9$color,
-        _ref9$fireball = _ref9.fireball,
-        fireball = _ref9$fireball === void 0 ? false : _ref9$fireball,
-        _ref9$fades = _ref9.fades,
-        fades = _ref9$fades === void 0 ? false : _ref9$fades;
+  function Particle(_ref11) {
+    var position = _ref11.position,
+        velocity = _ref11.velocity,
+        radius = _ref11.radius,
+        _ref11$color = _ref11.color,
+        color = _ref11$color === void 0 ? '#654428' : _ref11$color,
+        _ref11$fireball = _ref11.fireball,
+        fireball = _ref11$fireball === void 0 ? false : _ref11$fireball,
+        _ref11$fades = _ref11.fades,
+        fades = _ref11$fades === void 0 ? false : _ref11$fades;
 
     _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Particle);
 
@@ -11284,26 +11410,31 @@ var guardaSolVermelhoImage;
 var guardaSolAmareloImage;
 var boiasImage;
 var flamingoImage;
+var farolImage;
+var moedaImage;
+var tijoloImage;
 var player = new Player();
 var platforms = [];
 var genericObjects = [];
 var frontObjects = [];
 var mares = [];
-var goombas = [];
 var polvos = [];
+var gaivotas = [];
 var crabs = [];
 var particles = [];
 var fireFlowers = [];
+var moedas = [];
+var tijolos = [];
 var lastKey;
 var keys;
 var scrollOffset;
 var flagPole;
 var flagPoleImage;
 var game;
-var currentLevel = 1;
+var currentLevel = 0;
 
 function selectLevel(currentLevel) {
-  if (!_audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].musicLevel1.playing()) _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].musicLevel1.play();
+  if (!_audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].musicLevel1.playing()) _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].musicLevel1.play();
 
   switch (currentLevel) {
     case 0:
@@ -11350,60 +11481,70 @@ function _init() {
           case 6:
             platformImage = _context.sent;
             _context.next = 9;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_11__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
 
           case 9:
             platformSmallTallImage = _context.sent;
             _context.next = 12;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
 
           case 12:
             blockTriImage = _context.sent;
             _context.next = 15;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
 
           case 15:
             blockImage = _context.sent;
             _context.next = 18;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_19__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_20__["default"]);
 
           case 18:
             lgPlatformImage = _context.sent;
             _context.next = 21;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_20__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
 
           case 21:
             tPlatformImage = _context.sent;
             _context.next = 24;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_22__["default"]);
 
           case 24:
             xtPlatformImage = _context.sent;
             _context.next = 27;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_22__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_23__["default"]);
 
           case 27:
             flagPoleImage = _context.sent;
             _context.next = 30;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_flamengo_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_flamengo_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
 
           case 30:
             flamingoImage = _context.sent;
             _context.next = 33;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_18__["default"]);
 
           case 33:
             guardaSolAmareloImage = _context.sent;
             _context.next = 36;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
 
           case 36:
             guardaSolVermelhoImage = _context.sent;
             _context.next = 39;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_boias_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_boias_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
 
           case 39:
             boiasImage = _context.sent;
+            _context.next = 42;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_moeda_png__WEBPACK_IMPORTED_MODULE_37__["default"]);
+
+          case 42:
+            moedaImage = _context.sent;
+            _context.next = 45;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tijolo_png__WEBPACK_IMPORTED_MODULE_38__["default"]);
+
+          case 45:
+            tijoloImage = _context.sent;
             fireFlowers = [new FireFlower({
               position: {
                 x: 2670,
@@ -11525,31 +11666,31 @@ function _init() {
             frontObjects = [new FrontObject({
               x: 400,
               y: 340,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_mover_png__WEBPACK_IMPORTED_MODULE_43__["default"])
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_mover_png__WEBPACK_IMPORTED_MODULE_44__["default"])
             }), new FrontObject({
               x: 1200,
               y: 340,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_saltar_png__WEBPACK_IMPORTED_MODULE_45__["default"])
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_saltar_png__WEBPACK_IMPORTED_MODULE_46__["default"])
             }), new FrontObject({
               x: 1700,
               y: 340,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_inimigos_png__WEBPACK_IMPORTED_MODULE_46__["default"])
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_inimigos_png__WEBPACK_IMPORTED_MODULE_47__["default"])
             }), new FrontObject({
               x: 2300,
               y: 340,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_powerup_png__WEBPACK_IMPORTED_MODULE_44__["default"])
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_powerup_png__WEBPACK_IMPORTED_MODULE_45__["default"])
             }), new FrontObject({
               x: 2900,
               y: 340,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_tiros_png__WEBPACK_IMPORTED_MODULE_47__["default"])
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_tiros_png__WEBPACK_IMPORTED_MODULE_48__["default"])
             }), new FrontObject({
               x: 3800,
               y: 340,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_mar_png__WEBPACK_IMPORTED_MODULE_42__["default"])
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_mar_png__WEBPACK_IMPORTED_MODULE_43__["default"])
             }), new FrontObject({
               x: 5400,
               y: 340,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_farol_png__WEBPACK_IMPORTED_MODULE_41__["default"])
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_placa_farol_png__WEBPACK_IMPORTED_MODULE_42__["default"])
             })];
             particles = [];
             platforms = [new Platform({
@@ -11661,7 +11802,7 @@ function _init() {
               }
             });
 
-          case 55:
+          case 61:
           case "end":
             return _context.stop();
         }
@@ -11701,63 +11842,237 @@ function _init2() {
           case 6:
             platformImage = _context2.sent;
             _context2.next = 9;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_11__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
 
           case 9:
             platformSmallTallImage = _context2.sent;
             _context2.next = 12;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
 
           case 12:
             blockTriImage = _context2.sent;
             _context2.next = 15;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
 
           case 15:
             blockImage = _context2.sent;
             _context2.next = 18;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_19__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_lgPlatform_png__WEBPACK_IMPORTED_MODULE_20__["default"]);
 
           case 18:
             lgPlatformImage = _context2.sent;
             _context2.next = 21;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_20__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
 
           case 21:
             tPlatformImage = _context2.sent;
             _context2.next = 24;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_22__["default"]);
 
           case 24:
             xtPlatformImage = _context2.sent;
             _context2.next = 27;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_22__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_23__["default"]);
 
           case 27:
             flagPoleImage = _context2.sent;
             _context2.next = 30;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_flamengo_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_flamengo_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
 
           case 30:
             flamingoImage = _context2.sent;
             _context2.next = 33;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_18__["default"]);
 
           case 33:
             guardaSolAmareloImage = _context2.sent;
             _context2.next = 36;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
 
           case 36:
             guardaSolVermelhoImage = _context2.sent;
             _context2.next = 39;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_boias_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_boias_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
 
           case 39:
             boiasImage = _context2.sent;
+            _context2.next = 42;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_moeda_png__WEBPACK_IMPORTED_MODULE_37__["default"]);
+
+          case 42:
+            moedaImage = _context2.sent;
+            _context2.next = 45;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tijolo_png__WEBPACK_IMPORTED_MODULE_38__["default"]);
+
+          case 45:
+            tijoloImage = _context2.sent;
             fireFlowers = [new FireFlower({
               position: {
                 x: 1991 + lgPlatformImage.width - tPlatformImage.width + 100,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            })];
+            tijolos = [new Tijolo({
+              position: {
+                x: 11400,
+                y: 50
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            })];
+            moedas = [new Moeda({
+              position: {
+                x: 1100,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 1150,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 1200,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 2500,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 4300,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 5000,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 6000,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 6116 + 175 + 500,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 6116 + 175 * 2 + 500,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 7500,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 8700,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 9300,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 9800,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 10200,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 10600,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 11000,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 11400,
                 y: 100
               },
               velocity: {
@@ -11858,6 +12173,45 @@ function _init2() {
                 limit: 150,
                 traveled: 0
               }
+            }), new Polvo({
+              position: {
+                x: 8000 + 600 + xtPlatformImage.width + 450,
+                y: 100
+              },
+              velocity: {
+                x: -1,
+                y: 0
+              },
+              distance: {
+                limit: 100,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 10100 + 180,
+                y: 100
+              },
+              velocity: {
+                x: -1,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 10900 + 180,
+                y: 100
+              },
+              velocity: {
+                x: -1,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
             })];
             crabs = [new Crab({
               position: {
@@ -11898,12 +12252,74 @@ function _init2() {
                 limit: 150,
                 traveled: 0
               }
+            }), new Crab({
+              position: {
+                x: 8750,
+                y: 100
+              },
+              velocity: {
+                x: -1,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 7200,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              },
+              distance: {
+                limit: 0,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 9700 + 180,
+                y: 100
+              },
+              velocity: {
+                x: -1,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 10500 + 180,
+                y: 100
+              },
+              velocity: {
+                x: -1,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
             })];
             particles = [];
             platforms = [new Platform({
-              x: 908 + 100,
+              x: 500,
+              y: 330,
+              image: guardaSolAmareloImage,
+              block: true
+            }), new Platform({
+              x: 908 + 200,
               y: 300,
               image: blockTriImage,
+              block: true
+            }), new Platform({
+              x: 1600,
+              y: 430,
+              image: blockImage,
               block: true
             }), new Platform({
               x: 1991 + lgPlatformImage.width - tPlatformImage.width,
@@ -11911,14 +12327,19 @@ function _init2() {
               image: tPlatformImage,
               block: false
             }), new Platform({
-              x: 1991 + lgPlatformImage.width - tPlatformImage.width - 100,
+              x: 2100,
+              y: canvas.height - lgPlatformImage.height - tPlatformImage.height - 75,
+              image: flamingoImage,
+              block: true
+            }), new Platform({
+              x: 1791 + lgPlatformImage.width - tPlatformImage.width,
               y: canvas.height - lgPlatformImage.height - tPlatformImage.height - 75,
               image: blockImage,
               block: true
             }), new Platform({
-              x: 1991 + lgPlatformImage.width - tPlatformImage.width + 300,
-              y: canvas.height - lgPlatformImage.height - tPlatformImage.height + 50,
-              image: blockImage,
+              x: 4100,
+              y: 330,
+              image: guardaSolVermelhoImage,
               block: true
             }), new Platform({
               x: 5712 + xtPlatformImage.width + 500,
@@ -11946,18 +12367,58 @@ function _init2() {
               image: blockImage,
               block: true
             }), new Platform({
-              x: 8000 + 300,
-              y: canvas.height - lgPlatformImage.height - 100,
-              image: lgPlatformImage,
+              x: 8000 + 600,
+              y: 200,
+              image: xtPlatformImage,
               block: true
             }), new Platform({
-              x: 8000 + 300,
-              y: canvas.height - lgPlatformImage.height - 100,
-              image: lgPlatformImage,
+              x: 8000 + 600 + xtPlatformImage.width + 350,
+              y: 200,
+              image: xtPlatformImage,
+              block: true
+            }), new Platform({
+              x: 7900,
+              y: 380,
+              image: blockImage,
+              block: true
+            }), new Platform({
+              x: 8170,
+              y: 370,
+              image: flamingoImage,
+              block: true
+            }), new Platform({
+              x: 8270,
+              y: 370,
+              image: boiasImage,
+              block: true
+            }), new Platform({
+              x: 9700,
+              y: 500,
+              image: tPlatformImage,
+              block: true
+            }), new Platform({
+              x: 10100,
+              y: 400,
+              image: tPlatformImage,
+              block: true
+            }), new Platform({
+              x: 10500,
+              y: 300,
+              image: tPlatformImage,
+              block: true
+            }), new Platform({
+              x: 10900,
+              y: 200,
+              image: tPlatformImage,
+              block: true
+            }), new Platform({
+              x: 11300,
+              y: 100,
+              image: tPlatformImage,
               block: true
             })];
             flagPole = new GenericObject({
-              x: 10000 + 600,
+              x: 12000,
               y: canvas.height - lgPlatformImage.height - flagPoleImage.height - 100,
               image: flagPoleImage
             });
@@ -11980,7 +12441,7 @@ function _init2() {
               image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_mar_png__WEBPACK_IMPORTED_MODULE_6__["default"])
             })];
             scrollOffset = 0;
-            platformsMap = ['lg', 'lg', 'gap', 'lg', 'gap', 'gap', 'gap', 'lg', 'gap', 't', 'gap', 'xt', 'gap', 'xt', 'gap', 'gap', 'xt', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'lg'];
+            platformsMap = ['lg', 'lg', 'gap', 'lg', 'gap', 'gap', 'gap', 'lg', 'gap', 't', 'gap', 'xt', 'gap', 'xt', 'gap', 'gap', 'xt', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'lg', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'lg', 'lg'];
             platformDistance = 0;
             platformsMap.forEach(function (symbol) {
               switch (symbol) {
@@ -12022,7 +12483,7 @@ function _init2() {
               }
             });
 
-          case 54:
+          case 62:
           case "end":
             return _context2.stop();
         }
@@ -12038,7 +12499,7 @@ function initLevel2() {
 
 function _initLevel() {
   _initLevel = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0___default()( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.mark(function _callee3() {
-    var mountains, mdPlatformImage, platformsMap, platformDistance;
+    var mountains, mdPlatformImage, palmeirasImage, barcoImage, platformsMap, platformDistance;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_3___default.a.wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
@@ -12057,54 +12518,327 @@ function _initLevel() {
               disableUserInput: false
             };
             _context3.next = 6;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
 
           case 6:
             blockTriImage = _context3.sent;
             _context3.next = 9;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
 
           case 9:
             blockImage = _context3.sent;
             _context3.next = 12;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].levels[2].lgPlatform);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_50__["images"].levels[2].lgPlatform);
 
           case 12:
             lgPlatformImage = _context3.sent;
             _context3.next = 15;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_20__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tPlatform_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
 
           case 15:
             tPlatformImage = _context3.sent;
             _context3.next = 18;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_21__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_xtPlatform_png__WEBPACK_IMPORTED_MODULE_22__["default"]);
 
           case 18:
             xtPlatformImage = _context3.sent;
             _context3.next = 21;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_22__["default"]);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_destruido_png__WEBPACK_IMPORTED_MODULE_23__["default"]);
 
           case 21:
             flagPoleImage = _context3.sent;
             _context3.next = 24;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].levels[2].mountains);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_farol_png__WEBPACK_IMPORTED_MODULE_11__["default"]);
 
           case 24:
-            mountains = _context3.sent;
+            farolImage = _context3.sent;
             _context3.next = 27;
-            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].levels[2].mdPlatform);
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_50__["images"].levels[2].mountains);
 
           case 27:
+            mountains = _context3.sent;
+            _context3.next = 30;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_50__["images"].levels[2].mdPlatform);
+
+          case 30:
             mdPlatformImage = _context3.sent;
+            _context3.next = 33;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_50__["images"].levels[2].palmeiras);
+
+          case 33:
+            palmeirasImage = _context3.sent;
+            _context3.next = 36;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_images_js__WEBPACK_IMPORTED_MODULE_50__["images"].levels[2].barco);
+
+          case 36:
+            barcoImage = _context3.sent;
+            _context3.next = 39;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platform_png__WEBPACK_IMPORTED_MODULE_7__["default"]);
+
+          case 39:
+            platformImage = _context3.sent;
+            _context3.next = 42;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_platformSmallTall_png__WEBPACK_IMPORTED_MODULE_12__["default"]);
+
+          case 42:
+            platformSmallTallImage = _context3.sent;
+            _context3.next = 45;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_blockTri_png__WEBPACK_IMPORTED_MODULE_14__["default"]);
+
+          case 45:
+            blockTriImage = _context3.sent;
+            _context3.next = 48;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_block_png__WEBPACK_IMPORTED_MODULE_13__["default"]);
+
+          case 48:
+            blockImage = _context3.sent;
+            _context3.next = 51;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_flamengo_png__WEBPACK_IMPORTED_MODULE_16__["default"]);
+
+          case 51:
+            flamingoImage = _context3.sent;
+            _context3.next = 54;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_amarelo_png__WEBPACK_IMPORTED_MODULE_18__["default"]);
+
+          case 54:
+            guardaSolAmareloImage = _context3.sent;
+            _context3.next = 57;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_guarda_sol_vermelho_png__WEBPACK_IMPORTED_MODULE_17__["default"]);
+
+          case 57:
+            guardaSolVermelhoImage = _context3.sent;
+            _context3.next = 60;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_boias_png__WEBPACK_IMPORTED_MODULE_15__["default"]);
+
+          case 60:
+            boiasImage = _context3.sent;
+            _context3.next = 63;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_moeda_png__WEBPACK_IMPORTED_MODULE_37__["default"]);
+
+          case 63:
+            moedaImage = _context3.sent;
+            _context3.next = 66;
+            return Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImageAsync"])(_img_tijolo_png__WEBPACK_IMPORTED_MODULE_38__["default"]);
+
+          case 66:
+            tijoloImage = _context3.sent;
             flagPole = new GenericObject({
-              x: 7680,
-              // x: 500,
-              y: canvas.height - lgPlatformImage.height - flagPoleImage.height,
-              image: flagPoleImage
+              x: 14000,
+              y: -710,
+              image: farolImage
             });
             fireFlowers = [new FireFlower({
               position: {
-                x: 4734 - 28,
+                x: 7000,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            })];
+            tijolos = [new Tijolo({
+              position: {
+                x: 13300,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            })];
+            moedas = [new Moeda({
+              position: {
+                x: 1550,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 1600,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 1650,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 1700,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 1878 + lgPlatformImage.width + 175,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 1878 + lgPlatformImage.width + 155 + 200,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 1878 + lgPlatformImage.width + 155 + 200 + 200,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 1878 + lgPlatformImage.width + 155 + 200 + 200 + 200,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 5000,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 6150,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 6200,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 6250,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 8200,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 8900,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 8850,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 9850,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 9900,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 9950,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 10800,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 11200,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 11600,
+                y: 100
+              },
+              velocity: {
+                x: 0,
+                y: 0
+              }
+            }), new Moeda({
+              position: {
+                x: 12000,
                 y: 100
               },
               velocity: {
@@ -12114,7 +12848,321 @@ function _initLevel() {
             })];
             player = new Player();
             particles = [];
+            gaivotas = [new Gaivota({
+              position: {
+                x: 900,
+                y: 100
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 100,
+                traveled: 0
+              }
+            }), new Gaivota({
+              position: {
+                x: 7400,
+                y: 100
+              },
+              velocity: {
+                x: -3,
+                y: 0
+              },
+              distance: {
+                limit: 300,
+                traveled: 0
+              }
+            }), new Gaivota({
+              position: {
+                x: 11000,
+                y: 100
+              },
+              velocity: {
+                x: -5,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Gaivota({
+              position: {
+                x: 12300,
+                y: 100
+              },
+              velocity: {
+                x: -5,
+                y: 0
+              },
+              distance: {
+                limit: 350,
+                traveled: 0
+              }
+            })];
+            polvos = [new Polvo({
+              position: {
+                x: 5000,
+                y: 100
+              },
+              velocity: {
+                x: -1.5,
+                y: 0
+              },
+              distance: {
+                limit: 450,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 5100,
+                y: 100
+              },
+              velocity: {
+                x: -1.5,
+                y: 0
+              },
+              distance: {
+                limit: 450,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 8200,
+                y: 100
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 250,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 9000,
+                y: 100
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 250,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 9100,
+                y: 100
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 250,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 10100,
+                y: 100
+              },
+              velocity: {
+                x: -3,
+                y: 0
+              },
+              distance: {
+                limit: 550,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 10200,
+                y: 100
+              },
+              velocity: {
+                x: -3,
+                y: 0
+              },
+              distance: {
+                limit: 550,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 10300,
+                y: 100
+              },
+              velocity: {
+                x: -3,
+                y: 0
+              },
+              distance: {
+                limit: 550,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 11200,
+                y: 100
+              },
+              velocity: {
+                x: -5,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Polvo({
+              position: {
+                x: 12400,
+                y: 100
+              },
+              velocity: {
+                x: -5,
+                y: 0
+              },
+              distance: {
+                limit: 350,
+                traveled: 0
+              }
+            })];
+            crabs = [new Crab({
+              position: {
+                x: 1200,
+                y: 100
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 100,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 1991 + lgPlatformImage.width - tPlatformImage.width + 100,
+                y: 400
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 1991 + lgPlatformImage.width - tPlatformImage.width + 400,
+                y: 400
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 1991 + lgPlatformImage.width - tPlatformImage.width + 800,
+                y: 400
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 8750,
+                y: 100
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 6700,
+                y: 100
+              },
+              velocity: {
+                x: -2,
+                y: 0
+              },
+              distance: {
+                limit: 250,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 11700,
+                y: 100
+              },
+              velocity: {
+                x: -5,
+                y: 0
+              },
+              distance: {
+                limit: 150,
+                traveled: 0
+              }
+            }), new Crab({
+              position: {
+                x: 12500,
+                y: 100
+              },
+              velocity: {
+                x: -5,
+                y: 0
+              },
+              distance: {
+                limit: 350,
+                traveled: 0
+              }
+            })];
             platforms = [new Platform({
+              x: -1,
+              y: canvas.height - platformImage.height - 100,
+              image: platformImage,
+              block: true
+            }), new Platform({
+              x: platformImage.width - 2,
+              y: canvas.height - platformImage.height - 100,
+              image: platformImage,
+              block: true
+            }), new Platform({
+              x: platformImage.width * 2 - 3,
+              y: canvas.height - platformImage.height - 100,
+              image: platformImage,
+              block: true
+            }), new Platform({
+              x: platformImage.width * 3 - 4,
+              y: canvas.height - platformImage.height - 100,
+              image: platformImage,
+              block: true
+            }), new Platform({
+              x: 600,
+              y: 295,
+              image: guardaSolVermelhoImage,
+              block: true
+            }), new Platform({
               x: 903 + mdPlatformImage.width + 115,
               y: 300,
               image: blockTriImage,
@@ -12126,7 +13174,7 @@ function _initLevel() {
               block: true
             }), new Platform({
               x: 1878 + lgPlatformImage.width + 175,
-              y: 360,
+              y: 300,
               image: blockImage,
               block: true
             }), new Platform({
@@ -12143,6 +13191,21 @@ function _initLevel() {
               x: 1878 + lgPlatformImage.width + 155 + 200 + 200 + 200,
               y: 240,
               image: blockImage,
+              block: true
+            }), new Platform({
+              x: 1991 + lgPlatformImage.width - tPlatformImage.width + 1200,
+              y: 380,
+              image: flamingoImage,
+              block: true
+            }), new Platform({
+              x: 5300,
+              y: 330,
+              image: boiasImage,
+              block: true
+            }), new Platform({
+              x: 6300,
+              y: 250,
+              image: boiasImage,
               block: true
             }), new Platform({
               x: 4734 - mdPlatformImage.width / 2,
@@ -12168,25 +13231,62 @@ function _initLevel() {
               x: 6787,
               y: canvas.height - lgPlatformImage.height - mdPlatformImage.height * 3,
               image: mdPlatformImage
+            }), new Platform({
+              x: 11500 - mdPlatformImage.width,
+              y: canvas.height - lgPlatformImage.height - mdPlatformImage.height * 2,
+              image: mdPlatformImage
+            }), new Platform({
+              x: 11500,
+              y: canvas.height - lgPlatformImage.height - mdPlatformImage.height * 2,
+              image: mdPlatformImage
+            }), new Platform({
+              x: 11500,
+              y: canvas.height - lgPlatformImage.height - mdPlatformImage.height * 3,
+              image: mdPlatformImage
+            }), new Platform({
+              x: 13800,
+              y: canvas.height - platformImage.height - 100,
+              image: platformImage
+            }), new Platform({
+              x: 14300,
+              y: canvas.height - platformImage.height - 100,
+              image: platformImage
+            }), new Platform({
+              x: 12900,
+              y: 500,
+              image: blockImage
+            }), new Platform({
+              x: 13300,
+              y: 400,
+              image: blockImage
             })];
             genericObjects = [new GenericObject({
               x: -1,
               y: -1,
-              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_49__["images"].levels[2].background)
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_images_js__WEBPACK_IMPORTED_MODULE_50__["images"].levels[2].background)
             }), new GenericObject({
-              x: -1,
-              y: canvas.height - mountains.height,
-              image: mountains
+              x: 500,
+              y: 210,
+              image: palmeirasImage
+            }), new GenericObject({
+              x: 2400,
+              y: 0,
+              image: barcoImage
+            })];
+            mares = [new Mar({
+              x: 0,
+              y: 560,
+              image: Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["createImage"])(_img_mar_png__WEBPACK_IMPORTED_MODULE_6__["default"])
             })];
             scrollOffset = 0;
-            platformsMap = ['lg', 'md', 'gap', 'gap', 'gap', 'lg', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'lg', 'lg', 'gap', 'gap', 'md', 'gap', 'gap', 'md', 'gap', 'gap', 'lg'];
+            platformsMap = ['gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'gap', 'lg', 'md', 'gap', 'gap', 'gap', 'lg', 'gap', 'gap', 'lg', 'lg', 'gap', 'gap', 'md', 'gap', 'gap', 'md', 'gap', 'gap', 'lg', 'gap', 'gap', 'lg', 'lg', 'gap', 'gap', 'gap'];
             platformDistance = 0;
             platformsMap.forEach(function (symbol) {
               switch (symbol) {
                 case 'md':
                   platforms.push(new Platform({
                     x: platformDistance,
-                    y: canvas.height - mdPlatformImage.height,
+                    y: canvas.height - mdPlatformImage.height - 113,
                     image: mdPlatformImage,
                     block: true,
                     text: platformDistance
@@ -12197,7 +13297,7 @@ function _initLevel() {
                 case 'lg':
                   platforms.push(new Platform({
                     x: platformDistance - 2,
-                    y: canvas.height - lgPlatformImage.height,
+                    y: canvas.height - lgPlatformImage.height - 100,
                     image: lgPlatformImage,
                     block: true,
                     text: platformDistance
@@ -12212,7 +13312,7 @@ function _initLevel() {
                 case 't':
                   platforms.push(new Platform({
                     x: platformDistance,
-                    y: canvas.height - tPlatformImage.height,
+                    y: canvas.height - tPlatformImage.height - 100,
                     image: tPlatformImage,
                     block: true
                   }));
@@ -12222,7 +13322,7 @@ function _initLevel() {
                 case 'xt':
                   platforms.push(new Platform({
                     x: platformDistance,
-                    y: canvas.height - xtPlatformImage.height,
+                    y: canvas.height - xtPlatformImage.height - 100,
                     image: xtPlatformImage,
                     block: true,
                     text: platformDistance
@@ -12232,7 +13332,7 @@ function _initLevel() {
               }
             });
 
-          case 38:
+          case 83:
           case "end":
             return _context3.stop();
         }
@@ -12279,8 +13379,8 @@ function animate() {
       object1: player,
       object2: flagPole
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].completeLevel.play();
-      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].musicLevel1.stop();
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].completeLevel.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].musicLevel1.stop();
       game.disableUserInput = true;
       player.velocity.x = 0;
       player.velocity.y = 0;
@@ -12289,7 +13389,7 @@ function animate() {
       if (player.powerUps.fireFlower) player.currentSprite = player.sprites.stand.fireFlower.right; // flagpole slide
 
       setTimeout(function () {
-        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].descend.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].descend.play();
       }, 200);
       gsap__WEBPACK_IMPORTED_MODULE_4__["default"].to(player.position, {
         y: canvas.height - lgPlatformImage.height - player.height - 100,
@@ -12327,8 +13427,8 @@ function animate() {
           }));
         }
 
-        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].fireworkBurst.play();
-        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].fireworkWhistle.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].fireworkBurst.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].fireworkWhistle.play();
         if (increment === 3) clearInterval(intervalId);
         increment++;
       }, 1000); // switch to the next level
@@ -12339,7 +13439,7 @@ function animate() {
         selectLevel(currentLevel);
       }, 8000);
     }
-  } // mario obtains powerup
+  } // player obtains powerup
 
 
   fireFlowers.forEach(function (fireFlower, i) {
@@ -12347,78 +13447,34 @@ function animate() {
       object1: player,
       object2: fireFlower
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].obtainPowerUp.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].obtainPowerUp.play();
       player.powerUps.fireFlower = true;
       setTimeout(function () {
         fireFlowers.splice(i, 1);
       }, 0);
     } else fireFlower.update();
   });
-  goombas.forEach(function (goomba, index) {
-    goomba.update(); // remove goomba on fireball hit
-
-    particles.forEach(function (particle, particleIndex) {
-      if (particle.fireball && particle.position.x + particle.radius >= goomba.position.x && particle.position.y + particle.radius >= goomba.position.y && particle.position.x - particle.radius <= goomba.position.x + goomba.width && particle.position.y - particle.radius <= goomba.position.y + goomba.height) {
-        for (var i = 0; i < 50; i++) {
-          particles.push(new Particle({
-            position: {
-              x: goomba.position.x + goomba.width / 2,
-              y: goomba.position.y + goomba.height / 2
-            },
-            velocity: {
-              x: (Math.random() - 0.5) * 7,
-              y: (Math.random() - 0.5) * 15
-            },
-            radius: Math.random() * 3
-          }));
-        }
-
-        setTimeout(function () {
-          goombas.splice(index, 1);
-          particles.splice(particleIndex, 1);
-        }, 0);
-      }
-    }); // goomba stomp squish / squash
-
-    if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["collisionTop"])({
+  moedas.forEach(function (moeda, i) {
+    if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["objectsTouch"])({
       object1: player,
-      object2: goomba
+      object2: moeda
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].goombaSquash.play();
-
-      for (var i = 0; i < 50; i++) {
-        particles.push(new Particle({
-          position: {
-            x: goomba.position.x + goomba.width / 2,
-            y: goomba.position.y + goomba.height / 2
-          },
-          velocity: {
-            x: (Math.random() - 0.5) * 7,
-            y: (Math.random() - 0.5) * 15
-          },
-          radius: Math.random() * 3
-        }));
-      }
-
-      player.velocity.y -= 40;
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].obtainPowerUp.play();
       setTimeout(function () {
-        goombas.splice(index, 1);
+        moedas.splice(i, 1);
       }, 0);
-    } else if (player.position.x + player.width >= goomba.position.x && player.position.y + player.height >= goomba.position.y && player.position.x <= goomba.position.x + goomba.width) {
-      // player hits goomba
-      // lose fireflower / lose powerup
-      if (player.powerUps.fireFlower) {
-        player.invincible = true;
-        player.powerUps.fireFlower = false;
-        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].losePowerUp.play();
-        setTimeout(function () {
-          player.invincible = false;
-        }, 1000);
-      } else if (!player.invincible) {
-        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].die.play();
-        selectLevel(currentLevel);
-      }
-    }
+    } else moeda.update();
+  });
+  tijolos.forEach(function (tijolo, i) {
+    if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["objectsTouch"])({
+      object1: player,
+      object2: tijolo
+    })) {
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].obtainPowerUp.play();
+      setTimeout(function () {
+        tijolos.splice(i, 1);
+      }, 0);
+    } else tijolo.update();
   });
   crabs.forEach(function (crab, index) {
     crab.update(); // remove crab on fireball hit
@@ -12450,7 +13506,7 @@ function animate() {
       object1: player,
       object2: crab
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].goombaSquash.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].goombaSquash.play();
 
       for (var i = 0; i < 50; i++) {
         particles.push(new Particle({
@@ -12476,12 +13532,12 @@ function animate() {
       if (player.powerUps.fireFlower) {
         player.invincible = true;
         player.powerUps.fireFlower = false;
-        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].losePowerUp.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].losePowerUp.play();
         setTimeout(function () {
           player.invincible = false;
         }, 1000);
       } else if (!player.invincible) {
-        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].die.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].die.play();
         selectLevel(currentLevel);
       }
     }
@@ -12516,7 +13572,7 @@ function animate() {
       object1: player,
       object2: polvo
     })) {
-      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].goombaSquash.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].goombaSquash.play();
 
       for (var i = 0; i < 50; i++) {
         particles.push(new Particle({
@@ -12542,12 +13598,78 @@ function animate() {
       if (player.powerUps.fireFlower) {
         player.invincible = true;
         player.powerUps.fireFlower = false;
-        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].losePowerUp.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].losePowerUp.play();
         setTimeout(function () {
           player.invincible = false;
         }, 1000);
       } else if (!player.invincible) {
-        _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].die.play();
+        _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].die.play();
+        selectLevel(currentLevel);
+      }
+    }
+  });
+  gaivotas.forEach(function (gaivota, index) {
+    gaivota.update(); // remove gaivota on fireball hit
+
+    particles.forEach(function (particle, particleIndex) {
+      if (particle.fireball && particle.position.x + particle.radius >= gaivota.position.x && particle.position.y + particle.radius >= gaivota.position.y && particle.position.x - particle.radius <= gaivota.position.x + gaivota.width && particle.position.y - particle.radius <= gaivota.position.y + gaivota.height) {
+        for (var i = 0; i < 50; i++) {
+          particles.push(new Particle({
+            position: {
+              x: gaivota.position.x + gaivota.width / 2,
+              y: gaivota.position.y + gaivota.height / 2
+            },
+            velocity: {
+              x: (Math.random() - 0.5) * 7,
+              y: (Math.random() - 0.5) * 15
+            },
+            radius: Math.random() * 3
+          }));
+        }
+
+        setTimeout(function () {
+          gaivotas.splice(index, 1);
+          particles.splice(particleIndex, 1);
+        }, 0);
+      }
+    }); // gaivota stomp squish / squash
+
+    if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["collisionTop"])({
+      object1: player,
+      object2: gaivota
+    })) {
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].goombaSquash.play();
+
+      for (var i = 0; i < 50; i++) {
+        particles.push(new Particle({
+          position: {
+            x: gaivota.position.x + gaivota.width / 2,
+            y: gaivota.position.y + gaivota.height / 2
+          },
+          velocity: {
+            x: (Math.random() - 0.5) * 7,
+            y: (Math.random() - 0.5) * 15
+          },
+          radius: Math.random() * 3
+        }));
+      }
+
+      player.velocity.y -= 40;
+      setTimeout(function () {
+        gaivotas.splice(index, 1);
+      }, 0);
+    } else if (player.position.x + player.width >= gaivota.position.x && player.position.y + player.height >= gaivota.position.y && player.position.x <= gaivota.position.x + gaivota.width) {
+      // player hits enemy
+      // lose fireflower / lose powerup
+      if (player.powerUps.fireFlower) {
+        player.invincible = true;
+        player.powerUps.fireFlower = false;
+        _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].losePowerUp.play();
+        setTimeout(function () {
+          player.invincible = false;
+        }, 1000);
+      } else if (!player.invincible) {
+        _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].die.play();
         selectLevel(currentLevel);
       }
     }
@@ -12599,8 +13721,17 @@ function animate() {
         polvos.forEach(function (polvo) {
           polvo.position.x -= player.speed;
         });
+        gaivotas.forEach(function (gaivota) {
+          gaivota.position.x -= player.speed;
+        });
         fireFlowers.forEach(function (fireFlower) {
           fireFlower.position.x -= player.speed;
+        });
+        moedas.forEach(function (moeda) {
+          moeda.position.x -= player.speed;
+        });
+        tijolos.forEach(function (tijolo) {
+          tijolo.position.x -= player.speed;
         });
         particles.forEach(function (particle) {
           particle.position.x -= player.speed;
@@ -12641,8 +13772,17 @@ function animate() {
         polvos.forEach(function (polvo) {
           polvo.position.x += player.speed;
         });
+        gaivotas.forEach(function (gaivota) {
+          gaivota.position.x += player.speed;
+        });
         fireFlowers.forEach(function (fireFlower) {
           fireFlower.position.x += player.speed;
+        });
+        moedas.forEach(function (moeda) {
+          moeda.position.x += player.speed;
+        });
+        tijolos.forEach(function (tijolo) {
+          tijolo.position.x += player.speed;
         });
         particles.forEach(function (particle) {
           particle.position.x += player.speed;
@@ -12699,16 +13839,34 @@ function animate() {
         platform: platform
       })) polvo.velocity.y = 0;
     });
+    gaivotas.forEach(function (gaivota) {
+      if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["isOnTopOfPlatform"])({
+        object: gaivota,
+        platform: platform
+      })) gaivota.velocity.y = 0;
+    });
     fireFlowers.forEach(function (fireFlower) {
       if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["isOnTopOfPlatform"])({
         object: fireFlower,
         platform: platform
       })) fireFlower.velocity.y = 0;
     });
+    moedas.forEach(function (moeda) {
+      if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["isOnTopOfPlatform"])({
+        object: moeda,
+        platform: platform
+      })) moeda.velocity.y = 0;
+    });
+    tijolos.forEach(function (tijolo) {
+      if (Object(_utils_js__WEBPACK_IMPORTED_MODULE_5__["isOnTopOfPlatform"])({
+        object: tijolo,
+        platform: platform
+      })) tijolo.velocity.y = 0;
+    });
   }); // lose condition
 
   if (player.position.y > canvas.height) {
-    _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].die.play();
+    _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].die.play();
     selectLevel(currentLevel);
   } // sprite switching
 
@@ -12747,12 +13905,12 @@ function animate() {
 } // animation loop ends
 
 
-selectLevel(1); // init()
+selectLevel(0); // init()
 // initLevel2()
 
 animate();
-addEventListener('keydown', function (_ref10) {
-  var keyCode = _ref10.keyCode;
+addEventListener('keydown', function (_ref12) {
+  var keyCode = _ref12.keyCode;
   if (game.disableUserInput) return;
 
   switch (keyCode) {
@@ -12791,7 +13949,7 @@ addEventListener('keydown', function (_ref10) {
     case 87:
       console.log('up');
       player.velocity.y -= 25;
-      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].jump.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].jump.play();
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.right;else player.currentSprite = player.sprites.jump.left;
       if (!player.powerUps.fireFlower) break;
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.fireFlower.right;else player.currentSprite = player.sprites.jump.fireFlower.left;
@@ -12800,7 +13958,7 @@ addEventListener('keydown', function (_ref10) {
     case 38:
       console.log('up');
       player.velocity.y -= 25;
-      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].jump.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].jump.play();
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.right;else player.currentSprite = player.sprites.jump.left;
       if (!player.powerUps.fireFlower) break;
       if (lastKey === 'right') player.currentSprite = player.sprites.jump.fireFlower.right;else player.currentSprite = player.sprites.jump.fireFlower.left;
@@ -12813,7 +13971,7 @@ addEventListener('keydown', function (_ref10) {
       setTimeout(function () {
         player.shooting = false;
       }, 100);
-      _audio_js__WEBPACK_IMPORTED_MODULE_48__["audio"].fireFlowerShot.play();
+      _audio_js__WEBPACK_IMPORTED_MODULE_49__["audio"].fireFlowerShot.play();
       var velocity = 15;
       if (lastKey === 'left') velocity = -velocity;
       particles.push(new Particle({
@@ -12832,8 +13990,8 @@ addEventListener('keydown', function (_ref10) {
       break;
   }
 });
-addEventListener('keyup', function (_ref11) {
-  var keyCode = _ref11.keyCode;
+addEventListener('keyup', function (_ref13) {
+  var keyCode = _ref13.keyCode;
   if (game.disableUserInput) return;
 
   switch (keyCode) {
@@ -12889,10 +14047,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "images", function() { return images; });
 /* harmony import */ var _img_level2_background_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../img/level2/background.png */ "./src/img/level2/background.png");
 /* harmony import */ var _img_level2_mountains_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/level2/mountains.png */ "./src/img/level2/mountains.png");
-/* harmony import */ var _img_level2_lgPlatform_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/level2/lgPlatform.png */ "./src/img/level2/lgPlatform.png");
-/* harmony import */ var _img_level2_mdPlatform_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/level2/mdPlatform.png */ "./src/img/level2/mdPlatform.png");
-/* harmony import */ var _img_spriteFireFlowerShootLeft_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/spriteFireFlowerShootLeft.png */ "./src/img/spriteFireFlowerShootLeft.png");
-/* harmony import */ var _img_spriteFireFlowerShootRight_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/spriteFireFlowerShootRight.png */ "./src/img/spriteFireFlowerShootRight.png");
+/* harmony import */ var _img_level2_palmeiras_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/level2/palmeiras.png */ "./src/img/level2/palmeiras.png");
+/* harmony import */ var _img_level2_barco_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/level2/barco.png */ "./src/img/level2/barco.png");
+/* harmony import */ var _img_level2_lgPlatform_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/level2/lgPlatform.png */ "./src/img/level2/lgPlatform.png");
+/* harmony import */ var _img_level2_mdPlatform_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/level2/mdPlatform.png */ "./src/img/level2/mdPlatform.png");
+/* harmony import */ var _img_spriteFireFlowerShootLeft_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/spriteFireFlowerShootLeft.png */ "./src/img/spriteFireFlowerShootLeft.png");
+/* harmony import */ var _img_spriteFireFlowerShootRight_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/spriteFireFlowerShootRight.png */ "./src/img/spriteFireFlowerShootRight.png");
+
+
 
 
 
@@ -12903,8 +14065,8 @@ var images = {
   mario: {
     shoot: {
       fireFlower: {
-        right: _img_spriteFireFlowerShootRight_png__WEBPACK_IMPORTED_MODULE_5__["default"],
-        left: _img_spriteFireFlowerShootLeft_png__WEBPACK_IMPORTED_MODULE_4__["default"]
+        right: _img_spriteFireFlowerShootRight_png__WEBPACK_IMPORTED_MODULE_7__["default"],
+        left: _img_spriteFireFlowerShootLeft_png__WEBPACK_IMPORTED_MODULE_6__["default"]
       }
     }
   },
@@ -12915,8 +14077,10 @@ var images = {
     2: {
       background: _img_level2_background_png__WEBPACK_IMPORTED_MODULE_0__["default"],
       mountains: _img_level2_mountains_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-      lgPlatform: _img_level2_lgPlatform_png__WEBPACK_IMPORTED_MODULE_2__["default"],
-      mdPlatform: _img_level2_mdPlatform_png__WEBPACK_IMPORTED_MODULE_3__["default"]
+      lgPlatform: _img_level2_lgPlatform_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+      mdPlatform: _img_level2_mdPlatform_png__WEBPACK_IMPORTED_MODULE_5__["default"],
+      palmeiras: _img_level2_palmeiras_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+      barco: _img_level2_barco_png__WEBPACK_IMPORTED_MODULE_3__["default"]
     }
   }
 };
