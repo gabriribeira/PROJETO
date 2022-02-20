@@ -30,8 +30,8 @@ import tPlatform from '../img/tPlatform.png'
 import xtPlatform from '../img/xtPlatform.png'
 import flagPoleSprite from '../img/farol_destruido.png'
 
-import spriteMarioRunLeft from '../img/spriteRunLeft.png'
-import spriteMarioRunRight from '../img/spriteRunRight.png'
+import spriteRunLeft from '../img/spriteRunLeft.png'
+import spriteRunRight from '../img/spriteRunRight.png'
 import standRight from '../img/standRight.png'
 import standLeft from '../img/standLeft.png'
 import spriteJumpRight from '../img/spriteJumpRight.png'
@@ -43,6 +43,20 @@ import fireFlowerStandRight from '../img/fireFlowerStandRight.png'
 import fireFlowerStandLeft from '../img/fireFlowerStandLeft.png'
 import spriteFireFlowerJumpRight from '../img/spriteFireFlowerJumpRight.png'
 import spriteFireFlowerJumpLeft from '../img/spriteFireFlowerJumpLeft.png'
+
+import salvadorSpriteRunLeft from '../img/SpriteSalvadorEsq.png'
+import salvadorSpriteRunRight from '../img/SpriteSalvadorDireita.png'
+import salvadorStandRight from '../img/SalvadorStanding.png'
+import salvadorStandLeft from '../img/SalvadorStandingLeft.png'
+import salvadorSpriteJumpRight from '../img/SalvadorSaltoDir.png'
+import salvadorSpriteJumpLeft from '../img/SalvadorSaltoEsq.png'
+
+import salvadorSpriteFireFlowerRunRight from '../img/SpriteFlowerEsquerda.png'
+import salvadorSpriteFireFlowerRunLeft from '../img/SpriteFlowerEsquerda.png'
+import salvadorFireFlowerStandRight from '../img/SalvadorStandingFlower.png'
+import salvadorFireFlowerStandLeft from '../img/SalvadorStandingLeftFlower.png'
+import salvadorSpriteFireFlowerJumpRight from '../img/SalvadorSaltoDirFlower.png'
+import salvadorSpriteFireFlowerJumpLeft from '../img/SalvadorSaltoEsqFlower.png'
 
 import sal from '../img/sal.png'
 import moeda from '../img/moeda.png'
@@ -63,8 +77,13 @@ import placaTiros from '../img/placa_tiros.png'
 import { audio } from './audio.js'
 import { images } from './images.js'
 
+let scoreMoedasCount = document.querySelector('#score')
+let scoreMoedas = 0;
+
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
+
+
 
 canvas.width = 1280
 canvas.height = 720
@@ -100,8 +119,8 @@ class Player {
         }
       },
       run: {
-        right: createImage(spriteMarioRunRight),
-        left: createImage(spriteMarioRunLeft),
+        right: createImage(spriteRunRight),
+        left: createImage(spriteRunLeft),
         fireFlower: {
           right: createImage(spriteFireFlowerRunRight),
           left: createImage(spriteFireFlowerRunLeft)
@@ -191,7 +210,7 @@ class Player {
 }
 
 class Platform {
-  constructor({ x, y, image, block, text }) {
+  constructor({ x, y, image, block }) {
     this.position = {
       x,
       y
@@ -668,6 +687,7 @@ function selectLevel(currentLevel) {
 }
 
 async function init0() {
+
   player = new Player()
   keys = {
     right: {
@@ -709,6 +729,72 @@ async function init0() {
         y: 0
       }
     })
+  ]
+
+  tijolos = [
+    new Tijolo({
+      position: {
+        x: 5350,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    })
+  ]
+
+  moedas = [
+    new Moeda({
+      position: {
+        x: 1500,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 1600,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 4700,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 4850,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
+    new Moeda({
+      position: {
+        x: 5000,
+        y: 100
+      },
+      velocity: {
+        x: 0,
+        y: 0
+      }
+    }),
   ]
 
   player = new Player()
@@ -2999,10 +3085,12 @@ function animate() {
           object2: moeda
         })
     ) {
+      scoreMoedas += 10;
+      scoreMoedasCount.innerHTML = scoreMoedas
       audio.obtainPowerUp.play()
       setTimeout(() => {
         moedas.splice(i, 1)
-      }, 0)
+      }, 0);
     } else moeda.update()
   })
 
@@ -3101,7 +3189,7 @@ function animate() {
           player.invincible = false
         }, 1000)
       } else if (!player.invincible) {
-        audio.die.play()
+        audio.die.play();
         selectLevel(currentLevel)
       }
     }
@@ -3187,7 +3275,7 @@ function animate() {
           player.invincible = false
         }, 1000)
       } else if (!player.invincible) {
-        audio.die.play()
+        audio.die.play();
         selectLevel(currentLevel)
       }
     }
@@ -3274,7 +3362,7 @@ function animate() {
           player.invincible = false
         }, 1000)
       } else if (!player.invincible) {
-        audio.die.play()
+        audio.die.play();
         selectLevel(currentLevel)
       }
     }
@@ -3553,7 +3641,7 @@ function animate() {
 
   // lose condition
   if (player.position.y > canvas.height) {
-    audio.die.play()
+    audio.die.play();
     selectLevel(currentLevel)
   }
 
